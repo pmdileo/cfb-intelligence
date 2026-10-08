@@ -5,12 +5,14 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from cfb.data import load_games
+from cfb.advanced import load_boxscores
+from cfb.backtest import seasons_report
 from cfb.model import build_predictions, evaluation
 
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
 st.title('🏈 CFB Intelligence')
-st.caption('v0.2 · Free, automated score-based predictions · All kickoff timestamps UTC')
+st.caption('v0.3 · Score + available box-score data · All kickoff timestamps UTC')
 raw = load_games()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
@@ -18,7 +20,7 @@ if not raw:
 meta_path = Path(__file__).parent / 'data' / 'metadata.json'
 meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
 with st.spinner('Computing chronological predictions…'):
-    forecasts = build_predictions(raw)
+    forecasts = build_predictions(raw, boxscores=load_boxscores())
 df = pd.DataFrame(forecasts)
 now = datetime.now(timezone.utc)
 with st.sidebar:
@@ -62,19 +64,19 @@ for g in subset.itertuples():
             if g.completed:
                 st.info(f'Final: {g.away} {g.away_score} – {g.home} {g.home_score}')
             st.markdown('**What drives the predicted home margin?**')
-            explanation = pd.DataFrame({'Factor':['Elo rating difference','Home field','Recent scoring form','Recent opponent strength'],
-                'Points toward home margin':[g.elo_contribution,g.venue_contribution,g.form_contribution,g.sos_contribution]})
+            explanation = pd.DataFrame({'Factor':['Elo rating difference','Home field','Recent scoring form','Recent opponent strength', 'Yards/play advantage (when available)'],
+                'Points toward home margin':[g.elo_contribution,g.venue_contribution,g.form_contribution,g.sos_contribution,g.ypp_contribution]})
             st.bar_chart(explanation.set_index('Factor'))
             st.caption('Positive = favors home team; negative = favors away team. Contributions are rounded; calculations are heuristic, not calibrated effect estimates.')
-            st.markdown('**Score-based team comparison**')
+            st.markdown('**Recent performance comparison**')
             def fmt(value): return '—' if value is None or pd.isna(value) else f'{value:+.1f}'
             comparison = pd.DataFrame({
-                'Statistic':['Pregame Elo','Recent points/game*','Recent points allowed/game*','Prior opponent avg Elo – 1500','Venue-specific prior margin','Same-season games'],
-                g.away:[g.away_elo,g.away_ppg,g.away_allowed,g.away_sos_elo,fmt(g.away_away_margin),g.away_games],
-                g.home:[g.home_elo,g.home_ppg,g.home_allowed,g.home_sos_elo,fmt(g.home_home_margin),g.home_games],
+                'Statistic':['Pregame Elo','Recent points/game*','Recent points allowed/game*','Prior opponent avg Elo – 1500','Venue-specific prior margin','Same-season games','Yards per play (available previous games)','Opponent yards per play (previous games)','Box-score samples'],
+                g.away:[g.away_elo,g.away_ppg,g.away_allowed,g.away_sos_elo,fmt(g.away_away_margin),g.away_games,fmt(g.away_ypp),fmt(g.away_ypp_allowed),g.away_ypp_samples],
+                g.home:[g.home_elo,g.home_ppg,g.home_allowed,g.home_sos_elo,fmt(g.home_home_margin),g.home_games,fmt(g.home_ypp),fmt(g.home_ypp_allowed),g.home_ypp_samples],
             })
             st.dataframe(comparison, hide_index=True, use_container_width=True)
-            st.caption('*Prior-shrunk recent scoring statistics, not raw season averages. Venue samples exclude neutral games. Strength of schedule is based on opponents’ pregame Elo ratings.')
+            st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
             st.markdown('**Markets and external intelligence**')
             st.write('ESPN expert pick: **not integrated**')
@@ -98,11 +100,17 @@ if report:
     m2.metric('Winner accuracy', f"{report['winner_accuracy']:.1%}" if report['winner_accuracy'] is not None else '—')
     m3.metric('Margin MAE', f"{report['margin_mae']:.1f} pts")
     m4.metric('Total MAE', f"{report['total_mae']:.1f} pts")
+st.subheader('Season-by-season backtest')
+st.caption('Retrospective chronological replay, not archived real-time picks. Ratings use no future results. The box-score adjustment is heuristic and not held-out validated.')
+season_rows = seasons_report(forecasts)
+if season_rows:
+    st.dataframe(pd.DataFrame(season_rows).rename(columns={'season':'Season','games':'Games','winner_accuracy':'Winner accuracy','margin_mae':'Margin MAE','total_mae':'Total MAE','brier':'Brier score'}), hide_index=True, use_container_width=True)
 st.subheader('Export')
-st.download_button('Download weekly predictions (CSV)', subset.to_csv(index=False), file_name=f'cfb-{season}-week-{week}-v02.csv', mime='text/csv')
+st.download_button('Download weekly predictions (CSV)', subset.to_csv(index=False), file_name=f'cfb-{season}-week-{week}-v03.csv', mime='text/csv')
 with st.expander('Methodology and roadmap'):
-    st.markdown('''**Implemented v0.2:** Elo, home advantage, recent points for/against, recent opponent-Elo strength, home/away historical margins, spread/total/winner predictions, factor decomposition, historic scorecard, automated collection. Features use only preceding scores.
+    st.markdown('''**Implemented v0.3:** Elo, home advantage, recent points for/against, recent opponent-Elo strength, home/away historical margins, spread/total/winner predictions, factor decomposition, historic scorecard, automated collection. Features use only preceding scores.
 
-**Not implemented:** yards per play, EPA, injuries, recruiting, transfers, coaching-value-added, verified NIL dollars, ESPN/CBS picks, or current DraftKings/FanDuel odds. These require separately sourced, validated data. Do not interpret this model as proven to beat sportsbooks.
+**Not implemented:** complete yards/play coverage, EPA, injuries, recruiting, transfers, coaching-value-added, verified NIL dollars, ESPN/CBS picks, or current DraftKings/FanDuel odds. These require separately sourced, validated data. Do not interpret this model as proven to beat sportsbooks.
 
 **Data caveats:** Unofficial, undocumented ESPN feed; scoreboard event ranks may differ from historical AP polls. Historic walk-forward calculations aren't immutable predictions published before kickoff. Predictions update when new results arrive; next development priority is archiving pregame snapshots and obtaining reliable advanced-stat datasets.''')
+
