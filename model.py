@@ -138,3 +138,4 @@ def evaluation(rows):
         'total_mae': sum(abs(r['total'] - (r['home_score'] + r['away_score'])) for r in valid) / n,
         'brier': sum((r['home_win_prob'] - (1 if r['home_score'] > r['away_score'] else 0 if r['home_score'] < r['away_score'] else .5)) ** 2 for r in valid) / n,
     }
+
