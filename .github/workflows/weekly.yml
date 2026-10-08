@@ -22,7 +22,7 @@ jobs:
       - name: Update recent completed game box scores (best effort)
         run: python boxscore_refresh.py --max-new 100
       - name: Run regression tests
-        run: run: python -m pytest -q test_model.py test_data.py
+  run: python -m pytest -q test_model.py test_data.py
       - name: Commit updated datasets
         run: |
           git config user.name 'github-actions[bot]'
