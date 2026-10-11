@@ -12,7 +12,7 @@ from cfb.model import build_predictions, evaluation
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
 st.title('🏈 CFB Intelligence')
-st.caption('v0.3 · Score + available box-score data · All kickoff timestamps UTC')
+st.caption('v0.4 · Live three-way prediction tracker + advanced box scores · Kickoff times UTC')
 raw = load_games()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
@@ -100,6 +100,9 @@ if report:
     m2.metric('Winner accuracy', f"{report['winner_accuracy']:.1%}" if report['winner_accuracy'] is not None else '—')
     m3.metric('Margin MAE', f"{report['margin_mae']:.1f} pts")
     m4.metric('Total MAE', f"{report['total_mae']:.1f} pts")
+from cfb.tracker_ui import render_tracker
+render_tracker(raw)
+st.divider()
 st.subheader('Season-by-season backtest')
 st.caption('Retrospective chronological replay, not archived real-time picks. Ratings use no future results. The box-score adjustment is heuristic and not held-out validated.')
 season_rows = seasons_report(forecasts)
@@ -113,4 +116,3 @@ with st.expander('Methodology and roadmap'):
 **Not implemented:** complete yards/play coverage, EPA, injuries, recruiting, transfers, coaching-value-added, verified NIL dollars, ESPN/CBS picks, or current DraftKings/FanDuel odds. These require separately sourced, validated data. Do not interpret this model as proven to beat sportsbooks.
 
 **Data caveats:** Unofficial, undocumented ESPN feed; scoreboard event ranks may differ from historical AP polls. Historic walk-forward calculations aren't immutable predictions published before kickoff. Predictions update when new results arrive; next development priority is archiving pregame snapshots and obtaining reliable advanced-stat datasets.''')
-
