@@ -8,11 +8,13 @@ from cfb.data import load_games
 from cfb.advanced import load_boxscores
 from cfb.backtest import seasons_report
 from cfb.model import build_predictions, evaluation
+from cfb.tracker import tracker_rows, grade_game
+from cfb.tracker_ui import render_result_strip, render_records
 
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
 st.title('🏈 CFB Intelligence')
-st.caption('v0.4 · Live three-way prediction tracker + advanced box scores · Kickoff times UTC')
+st.caption('v0.4.1 · Weekly matchup results + archived prediction tracking · Kickoff times UTC')
 raw = load_games()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
@@ -46,12 +48,33 @@ if not show_completed:
 subset = subset.sort_values('date')
 a, b, c = st.columns(3)
 a.metric('Matchups', len(subset)); b.metric('Season', season); c.metric('Week', week)
+# First recorded before kickoff is the official prediction. For earlier games,
+# a historical walk-forward forecast can be displayed, but not counted as live.
+archived_rows = tracker_rows(raw)
+archived_by_id = {str(r['id']): r for r in archived_rows}
+st.subheader('Weekly record')
+render_records(archived_rows, season, week)
 st.subheader('Matchup center')
 if subset.empty:
     st.info('No qualifying matchups for this week. Try a different filter.')
 for g in subset.itertuples():
     title = f"{'#'+str(int(g.away_rank))+' ' if pd.notna(g.away_rank) else ''}{g.away} @ {'#'+str(int(g.home_rank))+' ' if pd.notna(g.home_rank) else ''}{g.home}"
+    archived = archived_by_id.get(str(g.id))
+    if archived is not None:
+        status = archived['status']
+        provenance = 'archived'
+    elif g.completed and pd.notna(g.home_score) and pd.notna(g.away_score):
+        # Backtest only: NOT a prediction saved before the actual game.
+        status = grade_game(g._asdict(), g._asdict())
+        provenance = 'retrospective'
+    else:
+        status = {'su': 'pending', 'ats': 'pending', 'ou': 'pending'}
+        provenance = 'pending'
     with st.expander(title + (' · FINAL' if g.completed else '')):
+        render_result_strip(status, provenance)
+        if archived is not None:
+            st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
+                       "results graded against the archived forecast, not today's recalculation.")
         favorite = g.home if g.home_margin >= 0 else g.away
         short_favorite = favorite.replace(' Ducks','').replace(' Bruins','').replace(' Crimson Tide','')
         left, right = st.columns([2.35, 1])
@@ -100,9 +123,6 @@ if report:
     m2.metric('Winner accuracy', f"{report['winner_accuracy']:.1%}" if report['winner_accuracy'] is not None else '—')
     m3.metric('Margin MAE', f"{report['margin_mae']:.1f} pts")
     m4.metric('Total MAE', f"{report['total_mae']:.1f} pts")
-from cfb.tracker_ui import render_tracker
-render_tracker(raw)
-st.divider()
 st.subheader('Season-by-season backtest')
 st.caption('Retrospective chronological replay, not archived real-time picks. Ratings use no future results. The box-score adjustment is heuristic and not held-out validated.')
 season_rows = seasons_report(forecasts)
