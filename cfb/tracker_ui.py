@@ -32,16 +32,40 @@ def render_result_strip(status, provenance):
         st.caption('ARCHIVED · First forecast saved before kickoff.')
 
 
-def render_records(archived_rows, season, week):
-    """Official record is restricted to genuinely archived pregame forecasts."""
-    season_rows = [r for r in archived_rows if int(r['season']) == int(season)]
-    groups = [('This week', [r for r in season_rows if int(r['week']) == int(week)]),
-              ('Season (archived)', season_rows)]
-    for heading, rows in groups:
-        st.markdown('**' + heading + '**')
-        cols = st.columns(3)
-        for col, key, label in zip(cols, ('su', 'ats', 'ou'), ('Winner', 'Against spread', 'Over/Under')):
-            summary = record(rows, key)
-            caption = f"{summary['pct']:.1%} of graded picks" if summary['pct'] is not None else 'No graded picks yet'
-            col.metric(label, f"{summary['wins']}–{summary['losses']}", caption)
-    st.caption('Official records exclude retrospective games. Pushes and games without pregame market lines do not count as wins or losses.')
+def retrospective_rows(predictions):
+    """Score completed games from the retrospective chronological model replay.
+
+    Historical rows must never enter the official live prediction count.
+    """
+    from .tracker import grade_game
+    result=[]
+    for game in predictions:
+        if not game.get('completed') or game.get('home_score') is None or game.get('away_score') is None:
+            continue
+        result.append({**game, 'status':grade_game(game,game), 'provenance':'retrospective'})
+    return result
+
+
+def render_records(archived_rows, historical_predictions, season, week):
+    """Show walk-forward historical results alongside independent live snapshots."""
+    retros=retrospective_rows(historical_predictions)
+    live=[r for r in archived_rows if int(r['season'])==int(season)]
+    groups=[
+        ('Selected week · historical', [r for r in retros if int(r['week'])==int(week)]),
+        ('Season · historical', retros),
+        ('Selected week · archived live', [r for r in live if int(r['week'])==int(week)]),
+        ('Season · archived live', live),
+    ]
+    for title, rows in groups:
+        st.markdown('**'+title+'**')
+        cols=st.columns(3)
+        for col, key, label in zip(cols,('su','ats','ou'),('Winner (SU)','Spread (ATS)','Over / Under')):
+            summary=record(rows,key)
+            rate=f"{summary['pct']:.1%} win rate" if summary['pct'] is not None else 'No graded picks'
+            no_line=summary['no_line']
+            if no_line:
+                rate+=f' · {no_line} no line'
+            col.metric(label, f"{summary['wins']}–{summary['losses']}",rate)
+    st.caption('HISTORICAL = retrospective replay, not real-time picks. ARCHIVED LIVE = saved before kickoff. '
+               'Both use completed games only. Market lines are required for ATS and O/U; absent lines remain NO LINE. '
+               'Historical totals follow the current Top 25 and completed-games filters; archived live totals include all tracked games.')
