@@ -1,4 +1,4 @@
-"""CFB Intelligence v0.2: free historical score-powered dashboard."""
+"""CFB Intelligence v0.4.2: integrated weekly retrospective and live scorecards."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,7 +14,7 @@ from cfb.tracker_ui import render_result_strip, render_records
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
 st.title('🏈 CFB Intelligence')
-st.caption('v0.4.1 · Weekly matchup results + archived prediction tracking · Kickoff times UTC')
+st.caption('v0.4.2 · Weekly results, historical backtests + archived live picks · Kickoff times UTC')
 raw = load_games()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
@@ -53,7 +53,15 @@ a.metric('Matchups', len(subset)); b.metric('Season', season); c.metric('Week', 
 archived_rows = tracker_rows(raw)
 archived_by_id = {str(r['id']): r for r in archived_rows}
 st.subheader('Weekly record')
-render_records(archived_rows, season, week)
+# Retrospective estimates are calculated from chronological historical replay.
+# Apply the same top-25 filter as the matchup center for a coherent scorecard.
+historical_scope = df[df.season == season].copy()
+if ranked_only:
+    historical_scope = historical_scope[historical_scope.home_rank.notna() | historical_scope.away_rank.notna()]
+if not show_completed:
+    historical_scope = historical_scope[~historical_scope.completed]
+render_records(archived_rows, historical_scope.to_dict('records'), season, week)
+
 st.subheader('Matchup center')
 if subset.empty:
     st.info('No qualifying matchups for this week. Try a different filter.')
@@ -76,12 +84,12 @@ for g in subset.itertuples():
             st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
                        "results graded against the archived forecast, not today's recalculation.")
         favorite = g.home if g.home_margin >= 0 else g.away
-        short_favorite = favorite.replace(' Ducks','').replace(' Bruins','').replace(' Crimson Tide','')
+        short_favorite = favorite.split(' ')[-1] if len(favorite) > 14 else favorite
         left, right = st.columns([2.35, 1])
         with left:
             x, y, z = st.columns(3)
             x.metric('Projected score (away – home)', f'{g.away_points:.0f} – {g.home_points:.0f}')
-            y.metric('Model spread', f'{short_favorite} -{abs(g.home_margin):.1f}', help='Model point-margin forecast, not a sportsbook line')
+            y.metric('Model spread', f'{short_favorite} -{abs(g.home_margin):.1f}', help=f'Projected favorite: {favorite}. Model forecast, not a sportsbook line')
             z.metric('Model total', f'{g.total:.1f}')
             st.progress(float(g.home_win_prob), text=f'{g.home}: {g.home_win_prob:.1%} win probability')
             if g.completed:
@@ -115,7 +123,7 @@ for g in subset.itertuples():
         st.download_button('Export matchup JSON', json.dumps(data, default=str, indent=2), file_name=f'game-{g.id}.json', key=f'dl-{g.id}')
 st.divider()
 st.subheader('Historical scorecard')
-st.caption('Chronological walk-forward simulations: each game is predicted before that game updates ratings. This is not a independently held-out betting validation or archive of predictions made live before kickoff.')
+st.caption('Historical chronological replay, not a record of predictions actually saved before kickoff. Live archived picks are reported separately above.')
 report = evaluation(df[(df.season == season) & df.completed].to_dict('records'))
 if report:
     m1, m2, m3, m4 = st.columns(4)
