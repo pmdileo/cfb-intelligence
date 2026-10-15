@@ -43,6 +43,9 @@ jobs:
 
       - name: Run regression tests
         run: python -m pytest -q tests
+        
+      - name: Compare v0.5 vs v0.6 prediction accuracy
+        run: python shadow_backtest.py
 
       - name: Commit updated datasets
         run: |
