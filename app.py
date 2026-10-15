@@ -1,34 +1,3 @@
-"""CFB Intelligence v0.4.2: integrated weekly retrospective and live scorecards."""
-import json
-from datetime import datetime, timezone
-from pathlib import Path
-import pandas as pd
-import streamlit as st
-from cfb.data import load_games
-from cfb.advanced import load_boxscores
-from cfb.backtest import seasons_report
-from cfb.model import build_predictions, evaluation
-from cfb.tracker import tracker_rows, grade_game
-from cfb.tracker_ui import render_result_strip, render_records
-
-st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
-st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
-st.title('🏈 CFB Intelligence')
-st.caption('v0.4.2 · Weekly results, historical backtests + archived live picks · Kickoff times UTC')
-raw = load_games()
-if not raw:
-    st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
-    st.stop()
-meta_path = Path(__file__).parent / 'data' / 'metadata.json'
-meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
-with st.spinner('Computing chronological predictions…'):
-    forecasts = build_predictions(raw, boxscores=load_boxscores())
-df = pd.DataFrame(forecasts)
-now = datetime.now(timezone.utc)
-with st.sidebar:
-    st.header('View options')
-    seasons = sorted(df.season.unique().tolist(), reverse=True)
-    season = st.selectbox('Season', seasons)
     weeks = sorted(df.loc[df.season == season, 'week'].unique().tolist())
     upcoming = df[(df.season == season) & (df.date >= now.isoformat())]['week']
     default_week = int(upcoming.iloc[0]) if not upcoming.empty else max(weeks)
@@ -83,13 +52,12 @@ for g in subset.itertuples():
         if archived is not None:
             st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
                        "results graded against the archived forecast, not today's recalculation.")
-        favorite = g.home if g.home_margin >= 0 else g.away
-        short_favorite = favorite.split(' ')[-1] if len(favorite) > 14 else favorite
         left, right = st.columns([2.35, 1])
         with left:
             x, y, z = st.columns(3)
             x.metric('Projected score (away – home)', f'{g.away_points:.0f} – {g.home_points:.0f}')
-            y.metric('Model spread', f'{short_favorite} -{abs(g.home_margin):.1f}', help=f'Projected favorite: {favorite}. Model forecast, not a sportsbook line')
+            with y:
+                render_spread(g._asdict())
             z.metric('Model total', f'{g.total:.1f}')
             st.progress(float(g.home_win_prob), text=f'{g.home}: {g.home_win_prob:.1%} win probability')
             if g.completed:
@@ -107,6 +75,7 @@ for g in subset.itertuples():
                 g.home:[g.home_elo,g.home_ppg,g.home_allowed,g.home_sos_elo,fmt(g.home_home_margin),g.home_games,fmt(g.home_ypp),fmt(g.home_ypp_allowed),g.home_ypp_samples],
             })
             st.dataframe(comparison, hide_index=True, use_container_width=True)
+            render_intelligence(g._asdict())
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
             st.markdown('**Markets and external intelligence**')
