@@ -4812,12 +4812,12 @@
     "espn_game_id": "401856720",
     "line_timing": "UNVERIFIED",
     "market_home_margin": 14.5,
-    "market_total": 57.5,
+    "market_total": 57.75,
     "provider_count": 2,
     "providers": {
       "Bovada": {
         "home_spread": -14.5,
-        "total": 57.5
+        "total": 58.0
       },
       "DraftKings": {
         "home_spread": -14.5,
@@ -5331,12 +5331,12 @@
     "cfbd_game_id": 401856831,
     "espn_game_id": "401856831",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": 4.75,
+    "market_home_margin": 4.5,
     "market_total": 62.5,
     "provider_count": 2,
     "providers": {
       "Bovada": {
-        "home_spread": -5.0,
+        "home_spread": -4.5,
         "total": 62.5
       },
       "DraftKings": {
