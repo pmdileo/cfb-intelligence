@@ -56,3 +56,9 @@ def render_records(archived_rows, historical_predictions, season, week, market_l
     st.caption('HISTORICAL = retrospective replay, not real-time picks. ARCHIVED LIVE = saved before kickoff. '
                'Both use completed games only. Market lines are required for ATS and O/U; absent lines remain NO LINE. '
                'Historical totals follow the current Top 25 and completed-games filters; archived live totals include all tracked games.')
+    
+def retrospective_rows(predictions):
+    """Backward-compatible historical grading without market lines."""
+    from .historical_markets import historical_rows
+    return historical_rows(predictions, {})
+
