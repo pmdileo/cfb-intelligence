@@ -46,6 +46,9 @@ jobs:
         
       - name: Compare v0.5 vs v0.6 prediction accuracy
         run: python shadow_backtest.py
+        
+      - name: Research hybrid model validation
+        run: python hybrid_backtest.py
 
       - name: Commit updated datasets
         run: |
