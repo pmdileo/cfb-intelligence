@@ -14,6 +14,9 @@ from cfb.matchup_intel_ui import render_spread, render_intelligence
 from cfb.market_lines import load_lines
 from cfb.market_audit_ui import render_market_providers, render_market_coverage
 from cfb.historical_markets import retrospective_grade
+from cfb.time_safe import replay_shadow
+from cfb.shadow_research_ui import render_shadow_research
+
 
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
@@ -29,6 +32,9 @@ meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
 with st.spinner('Computing chronological predictions…'):
     forecasts = build_predictions(raw, boxscores=load_boxscores())
 df = pd.DataFrame(forecasts)
+shadow_research_by_id = {
+    str(g['id']): g for g in replay_shadow(raw)
+}
 now = datetime.now(timezone.utc)
 with st.sidebar:
     st.header('View options')
@@ -116,6 +122,11 @@ for g in subset.itertuples():
             render_intelligence(g._asdict())
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
+            render_shadow_research(
+                g._asdict(),
+                shadow_research_by_id.get(str(g.id))
+            )
+            st.divider()
             st.markdown('**Markets and external intelligence**')
             if historical_market:
                 st.markdown('**Historical sportsbook consensus**')
