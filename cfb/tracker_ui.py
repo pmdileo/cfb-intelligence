@@ -32,23 +32,10 @@ def render_result_strip(status, provenance):
         st.caption('ARCHIVED · First forecast saved before kickoff.')
 
 
-def retrospective_rows(predictions):
-    """Score completed games from the retrospective chronological model replay.
-
-    Historical rows must never enter the official live prediction count.
-    """
-    from .tracker import grade_game
-    result=[]
-    for game in predictions:
-        if not game.get('completed') or game.get('home_score') is None or game.get('away_score') is None:
-            continue
-        result.append({**game, 'status':grade_game(game,game), 'provenance':'retrospective'})
-    return result
-
-
-def render_records(archived_rows, historical_predictions, season, week):
+def render_records(archived_rows, historical_predictions, season, week, market_lines=None):
     """Show walk-forward historical results alongside independent live snapshots."""
-    retros=retrospective_rows(historical_predictions)
+    from .historical_markets import historical_rows
+    retros=historical_rows(historical_predictions, market_lines or {})
     live=[r for r in archived_rows if int(r['season'])==int(season)]
     groups=[
         ('Selected week · historical', [r for r in retros if int(r['week'])==int(week)]),
@@ -69,3 +56,9 @@ def render_records(archived_rows, historical_predictions, season, week):
     st.caption('HISTORICAL = retrospective replay, not real-time picks. ARCHIVED LIVE = saved before kickoff. '
                'Both use completed games only. Market lines are required for ATS and O/U; absent lines remain NO LINE. '
                'Historical totals follow the current Top 25 and completed-games filters; archived live totals include all tracked games.')
+    
+def retrospective_rows(predictions):
+    """Backward-compatible historical grading without market lines."""
+    from .historical_markets import historical_rows
+    return historical_rows(predictions, {})
+
