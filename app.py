@@ -12,6 +12,7 @@ from cfb.tracker import tracker_rows, grade_game
 from cfb.tracker_ui import render_result_strip, render_records
 from cfb.matchup_intel_ui import render_spread, render_intelligence
 from cfb.market_lines import load_lines
+from cfb.market_audit_ui import render_market_providers, render_market_coverage
 from cfb.historical_markets import retrospective_grade
 
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
@@ -56,6 +57,7 @@ a.metric('Matchups', len(subset)); b.metric('Season', season); c.metric('Week', 
 # a historical walk-forward forecast can be displayed, but not counted as live.
 archived_rows = tracker_rows(raw)
 archived_by_id = {str(r['id']): r for r in archived_rows}
+render_market_coverage(raw, market_lines)
 st.subheader('Weekly record')
 # Retrospective estimates are calculated from chronological historical replay.
 # Apply the same top-25 filter as the matchup center for a coherent scorecard.
@@ -126,6 +128,7 @@ for g in subset.itertuples():
                 if mt is not None:
                     st.write(f"Market total: **{mt:.1f}** · Model difference: **{g.total - mt:+.1f}**")
                 st.caption(f"{historical_market.get('provider_count', 0)} provider(s). Historical line timing UNVERIFIED; not a live pregame quote.")
+                render_market_providers(historical_market, g.home, g.away)
             else:
                 st.caption('No historical sportsbook consensus matched for this game.')
             st.write('ESPN expert pick: **not integrated**')
