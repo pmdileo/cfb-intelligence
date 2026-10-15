@@ -1,4 +1,4 @@
-"""CFB Intelligence v0.4.3: weekly records and matchup intelligence."""
+"""CFB Intelligence v0.5.1: retrospective historical market grades."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -11,12 +11,15 @@ from cfb.model import build_predictions, evaluation
 from cfb.tracker import tracker_rows, grade_game
 from cfb.tracker_ui import render_result_strip, render_records
 from cfb.matchup_intel_ui import render_spread, render_intelligence
+from cfb.market_lines import load_lines
+from cfb.historical_markets import retrospective_grade
 
 st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
 st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
 st.title('🏈 CFB Intelligence')
-st.caption('v0.4.3 · Weekly results, historical backtests + matchup intelligence · Kickoff times UTC')
+st.caption('v0.5.1 · Historical sportsbook analysis + archived live picks · Kickoff times UTC')
 raw = load_games()
+market_lines = load_lines()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
     st.stop()
@@ -61,7 +64,7 @@ if ranked_only:
     historical_scope = historical_scope[historical_scope.home_rank.notna() | historical_scope.away_rank.notna()]
 if not show_completed:
     historical_scope = historical_scope[~historical_scope.completed]
-render_records(archived_rows, historical_scope.to_dict('records'), season, week)
+render_records(archived_rows, historical_scope.to_dict('records'), season, week, market_lines)
 
 st.subheader('Matchup center')
 if subset.empty:
@@ -74,7 +77,7 @@ for g in subset.itertuples():
         provenance = 'archived'
     elif g.completed and pd.notna(g.home_score) and pd.notna(g.away_score):
         # Backtest only: NOT a prediction saved before the actual game.
-        status = grade_game(g._asdict(), g._asdict())
+        status = retrospective_grade(g._asdict(), market_lines.get(str(g.id)))
         provenance = 'retrospective'
     else:
         status = {'su': 'pending', 'ats': 'pending', 'ou': 'pending'}
@@ -84,6 +87,7 @@ for g in subset.itertuples():
         if archived is not None:
             st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
                        "results graded against the archived forecast, not today's recalculation.")
+        historical_market = market_lines.get(str(g.id))
         left, right = st.columns([2.35, 1])
         with left:
             x, y, z = st.columns(3)
@@ -111,6 +115,19 @@ for g in subset.itertuples():
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
             st.markdown('**Markets and external intelligence**')
+            if historical_market:
+                st.markdown('**Historical sportsbook consensus**')
+                mm = historical_market.get('market_home_margin')
+                mt = historical_market.get('market_total')
+                if mm is not None:
+                    st.write(f"Market spread: **{g.home if mm > 0 else g.away if mm < 0 else 'Pick em'}** " +
+                             (f"-{abs(mm):.1f}" if mm else "(even)"))
+                    st.write(f"Model vs market margin: **{g.home_margin - mm:+.1f} points** (home-team view)")
+                if mt is not None:
+                    st.write(f"Market total: **{mt:.1f}** · Model difference: **{g.total - mt:+.1f}**")
+                st.caption(f"{historical_market.get('provider_count', 0)} provider(s). Historical line timing UNVERIFIED; not a live pregame quote.")
+            else:
+                st.caption('No historical sportsbook consensus matched for this game.')
             st.write('ESPN expert pick: **not integrated**')
             st.write('CBS expert pick: **not integrated**')
             st.write('DraftKings: **not available**')
