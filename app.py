@@ -1,3 +1,35 @@
+"""CFB Intelligence v0.4.3: weekly records and matchup intelligence."""
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+import pandas as pd
+import streamlit as st
+from cfb.data import load_games
+from cfb.advanced import load_boxscores
+from cfb.backtest import seasons_report
+from cfb.model import build_predictions, evaluation
+from cfb.tracker import tracker_rows, grade_game
+from cfb.tracker_ui import render_result_strip, render_records
+from cfb.matchup_intel_ui import render_spread, render_intelligence
+
+st.set_page_config(page_title='CFB Intelligence', page_icon='🏈', layout='wide')
+st.markdown('<style>.block-container{padding-top:1.5rem;max-width:1450px}</style>', unsafe_allow_html=True)
+st.title('🏈 CFB Intelligence')
+st.caption('v0.4.3 · Weekly results, historical backtests + matchup intelligence · Kickoff times UTC')
+raw = load_games()
+if not raw:
+    st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
+    st.stop()
+meta_path = Path(__file__).parent / 'data' / 'metadata.json'
+meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
+with st.spinner('Computing chronological predictions…'):
+    forecasts = build_predictions(raw, boxscores=load_boxscores())
+df = pd.DataFrame(forecasts)
+now = datetime.now(timezone.utc)
+with st.sidebar:
+    st.header('View options')
+    seasons = sorted(df.season.unique().tolist(), reverse=True)
+    season = st.selectbox('Season', seasons)
     weeks = sorted(df.loc[df.season == season, 'week'].unique().tolist())
     upcoming = df[(df.season == season) & (df.date >= now.isoformat())]['week']
     default_week = int(upcoming.iloc[0]) if not upcoming.empty else max(weeks)
