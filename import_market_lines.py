@@ -11,4 +11,12 @@ parser.add_argument('--end', type=int, default=2026)
 args = parser.parse_args()
 if args.start > args.end:
     parser.error('--start must be <= --end')
-print(json.dumps(collect(range(args.start, args.end + 1), os.environ.get('CFBD_API_KEY'), load_games()), indent=2))
+api_key = os.environ.get("CFBD_API_KEY", "").strip()
+
+if not api_key:
+    raise ValueError("CFBD_API_KEY is missing or empty.")
+
+print(json.dumps(
+    collect(range(args.start, args.end + 1), api_key, load_games()),
+    indent=2
+))
