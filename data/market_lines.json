@@ -4792,7 +4792,7 @@
     "espn_game_id": "401856719",
     "line_timing": "UNVERIFIED",
     "market_home_margin": 19.5,
-    "market_total": 49.75,
+    "market_total": 50.25,
     "provider_count": 2,
     "providers": {
       "Bovada": {
@@ -4801,7 +4801,7 @@
       },
       "DraftKings": {
         "home_spread": -19.5,
-        "total": 49.5
+        "total": 50.5
       }
     },
     "season": 2026,
@@ -4812,7 +4812,7 @@
     "espn_game_id": "401856720",
     "line_timing": "UNVERIFIED",
     "market_home_margin": 17.75,
-    "market_total": 55.5,
+    "market_total": 56.0,
     "provider_count": 2,
     "providers": {
       "Bovada": {
@@ -4821,7 +4821,7 @@
       },
       "DraftKings": {
         "home_spread": -17.5,
-        "total": 55.5
+        "total": 56.5
       }
     },
     "season": 2026,
@@ -4831,8 +4831,8 @@
     "cfbd_game_id": 401856722,
     "espn_game_id": "401856722",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": 6.5,
-    "market_total": 43.5,
+    "market_home_margin": 6.75,
+    "market_total": 44.0,
     "provider_count": 2,
     "providers": {
       "Bovada": {
@@ -4840,8 +4840,8 @@
         "total": 43.5
       },
       "DraftKings": {
-        "home_spread": -6.5,
-        "total": 43.5
+        "home_spread": -7.0,
+        "total": 44.5
       }
     },
     "season": 2026,
@@ -4907,13 +4907,17 @@
     "cfbd_game_id": 401856727,
     "espn_game_id": "401856727",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": 15.5,
-    "market_total": 53.5,
-    "provider_count": 1,
+    "market_home_margin": 14.0,
+    "market_total": 50.5,
+    "provider_count": 2,
     "providers": {
+      "Bovada": {
+        "home_spread": -14.0,
+        "total": 50.5
+      },
       "DraftKings": {
-        "home_spread": -15.5,
-        "total": 53.5
+        "home_spread": -14.0,
+        "total": 50.5
       }
     },
     "season": 2026,
@@ -4923,13 +4927,37 @@
     "cfbd_game_id": 401856728,
     "espn_game_id": "401856728",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": -6.5,
-    "market_total": 50.5,
-    "provider_count": 1,
+    "market_home_margin": -7.25,
+    "market_total": 51.25,
+    "provider_count": 2,
     "providers": {
+      "Bovada": {
+        "home_spread": 7.0,
+        "total": 51.0
+      },
       "DraftKings": {
-        "home_spread": 6.5,
-        "total": 50.5
+        "home_spread": 7.5,
+        "total": 51.5
+      }
+    },
+    "season": 2026,
+    "source": "CollegeFootballData historical betting lines"
+  },
+  "401856730": {
+    "cfbd_game_id": 401856730,
+    "espn_game_id": "401856730",
+    "line_timing": "UNVERIFIED",
+    "market_home_margin": -4.5,
+    "market_total": 44.5,
+    "provider_count": 2,
+    "providers": {
+      "Bovada": {
+        "home_spread": 4.5,
+        "total": 44.5
+      },
+      "DraftKings": {
+        "home_spread": 4.5,
+        "total": 44.5
       }
     },
     "season": 2026,
@@ -5228,7 +5256,7 @@
     "espn_game_id": "401856809",
     "line_timing": "UNVERIFIED",
     "market_home_margin": -10.5,
-    "market_total": 46.75,
+    "market_total": 47.25,
     "provider_count": 2,
     "providers": {
       "Bovada": {
@@ -5237,7 +5265,7 @@
       },
       "DraftKings": {
         "home_spread": 10.5,
-        "total": 46.5
+        "total": 47.5
       }
     },
     "season": 2026,
@@ -5347,7 +5375,7 @@
     "cfbd_game_id": 401856831,
     "espn_game_id": "401856831",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": 4.5,
+    "market_home_margin": 4.25,
     "market_total": 62.25,
     "provider_count": 2,
     "providers": {
@@ -5356,7 +5384,7 @@
         "total": 62.0
       },
       "DraftKings": {
-        "home_spread": -4.5,
+        "home_spread": -4.0,
         "total": 62.5
       }
     },
@@ -5367,13 +5395,17 @@
     "cfbd_game_id": 401856835,
     "espn_game_id": "401856835",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": -7.5,
-    "market_total": 45.5,
-    "provider_count": 1,
+    "market_home_margin": -6.75,
+    "market_total": 43.5,
+    "provider_count": 2,
     "providers": {
+      "Bovada": {
+        "home_spread": 7.0,
+        "total": 43.5
+      },
       "DraftKings": {
-        "home_spread": 7.5,
-        "total": 45.5
+        "home_spread": 6.5,
+        "total": 43.5
       }
     },
     "season": 2026,
@@ -5586,6 +5618,26 @@
       "DraftKings": {
         "home_spread": 6.5,
         "total": 42.5
+      }
+    },
+    "season": 2026,
+    "source": "CollegeFootballData historical betting lines"
+  },
+  "401858273": {
+    "cfbd_game_id": 401858273,
+    "espn_game_id": "401858273",
+    "line_timing": "UNVERIFIED",
+    "market_home_margin": 4.0,
+    "market_total": 49.5,
+    "provider_count": 2,
+    "providers": {
+      "Bovada": {
+        "home_spread": -4.0,
+        "total": 49.5
+      },
+      "DraftKings": {
+        "home_spread": -4.0,
+        "total": 49.5
       }
     },
     "season": 2026,
@@ -5931,7 +5983,7 @@
     "cfbd_game_id": 401858491,
     "espn_game_id": "401858491",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": -7.0,
+    "market_home_margin": -7.25,
     "market_total": 50.25,
     "provider_count": 2,
     "providers": {
@@ -5940,8 +5992,28 @@
         "total": 50.0
       },
       "DraftKings": {
-        "home_spread": 7.0,
+        "home_spread": 7.5,
         "total": 50.5
+      }
+    },
+    "season": 2026,
+    "source": "CollegeFootballData historical betting lines"
+  },
+  "401858499": {
+    "cfbd_game_id": 401858499,
+    "espn_game_id": "401858499",
+    "line_timing": "UNVERIFIED",
+    "market_home_margin": 14.0,
+    "market_total": 44.5,
+    "provider_count": 2,
+    "providers": {
+      "Bovada": {
+        "home_spread": -14.0,
+        "total": 44.5
+      },
+      "DraftKings": {
+        "home_spread": -14.0,
+        "total": 44.5
       }
     },
     "season": 2026,
@@ -6343,7 +6415,7 @@
     "cfbd_game_id": 401864522,
     "espn_game_id": "401864522",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": 7.75,
+    "market_home_margin": 7.5,
     "market_total": 42.25,
     "provider_count": 2,
     "providers": {
@@ -6352,7 +6424,7 @@
         "total": 42.0
       },
       "DraftKings": {
-        "home_spread": -7.5,
+        "home_spread": -7.0,
         "total": 42.5
       }
     },
@@ -6463,7 +6535,7 @@
     "cfbd_game_id": 401869934,
     "espn_game_id": "401869934",
     "line_timing": "UNVERIFIED",
-    "market_home_margin": -6.25,
+    "market_home_margin": -6.0,
     "market_total": 61.75,
     "provider_count": 2,
     "providers": {
@@ -6472,8 +6544,28 @@
         "total": 62.0
       },
       "DraftKings": {
-        "home_spread": 6.0,
+        "home_spread": 5.5,
         "total": 61.5
+      }
+    },
+    "season": 2026,
+    "source": "CollegeFootballData historical betting lines"
+  },
+  "401869935": {
+    "cfbd_game_id": 401869935,
+    "espn_game_id": "401869935",
+    "line_timing": "UNVERIFIED",
+    "market_home_margin": -2.25,
+    "market_total": 58.5,
+    "provider_count": 2,
+    "providers": {
+      "Bovada": {
+        "home_spread": 2.0,
+        "total": 58.5
+      },
+      "DraftKings": {
+        "home_spread": 2.5,
+        "total": 58.5
       }
     },
     "season": 2026,
