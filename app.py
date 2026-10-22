@@ -12,6 +12,8 @@ from cfb.tracker import tracker_rows, grade_game
 from cfb.tracker_ui import render_result_strip, render_records
 from cfb.matchup_intel_ui import render_spread, render_intelligence
 from cfb.market_lines import load_lines
+from cfb.current_odds import load as load_current_odds
+from cfb.current_odds_ui import render_current_odds
 from cfb.market_audit_ui import render_market_providers, render_market_coverage
 from cfb.historical_markets import retrospective_grade
 
@@ -21,6 +23,7 @@ st.title('🏈 CFB Intelligence')
 st.caption('v0.5.1 · Historical sportsbook analysis + archived live picks · Kickoff times UTC')
 raw = load_games()
 market_lines = load_lines()
+current_odds = load_current_odds()
 if not raw:
     st.warning('No games yet. Run the GitHub Actions refresh workflow to download data.')
     st.stop()
@@ -116,9 +119,16 @@ for g in subset.itertuples():
             render_intelligence(g._asdict())
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
+        render_current_odds(
+            current_odds.get(str(g.id)),
+            g.home,
+            g.away,
+            g.date
+        )
+        st.divider()
             st.markdown('**Markets and external intelligence**')
             if historical_market:
-                st.markdown('**Historical sportsbook consensus**')
+                st.markdown('**Historical sportsbook consensus (NOT LIVE)**')
                 mm = historical_market.get('market_home_margin')
                 mt = historical_market.get('market_total')
                 if mm is not None:
