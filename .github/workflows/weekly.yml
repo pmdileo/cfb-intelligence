@@ -40,6 +40,9 @@ jobs:
 
       - name: Archive pregame forecasts
         run: python archive_predictions.py
+        
+      - name: Archive Shadow research forecasts
+        run: python archive_shadow.py
 
       - name: Run regression tests
         run: python -m pytest -q tests
