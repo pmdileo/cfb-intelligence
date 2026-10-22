@@ -119,13 +119,13 @@ for g in subset.itertuples():
             render_intelligence(g._asdict())
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
-        render_current_odds(
-            current_odds.get(str(g.id)),
-            g.home,
-            g.away,
-            g.date
-        )
-        st.divider()
+            render_current_odds(
+                current_odds.get(str(g.id)),
+                g.home,
+                g.away,
+                g.date
+            )
+            st.divider()
             st.markdown('**Markets and external intelligence**')
             if historical_market:
                 st.markdown('**Historical sportsbook consensus (NOT LIVE)**')
