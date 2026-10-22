@@ -1,0 +1,31 @@
+name: Refresh recently observed CFB sportsbook lines
+on:
+  schedule:
+    - cron: '23 12 * * *'
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  current-odds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Pull upcoming sportsbook odds
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: python refresh_current_odds.py
+      - name: Save current odds observations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/current_odds.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update observed college football odds'
+            git push
+          fi
