@@ -5,6 +5,7 @@ from pathlib import Path
 from cfb.time_safe import replay_shadow
 from cfb.matchup_display_v07 import render_official_spread, render_shadow_card
 from cfb.shadow_forward_ui import render_shadow_forward
+from cfb.forward_scoreboard_ui import render_forward_scoreboard
 import pandas as pd
 import streamlit as st
 from cfb.data import load_games
@@ -159,6 +160,8 @@ for g in subset.itertuples():
         st.caption(f'Model: {g.model_version} · Kickoff {g.date} · {g.venue}')
         data = pd.Series(g._asdict()).replace({float('nan'): None}).to_dict()
         st.download_button('Export matchup JSON', json.dumps(data, default=str, indent=2), file_name=f'game-{g.id}.json', key=f'dl-{g.id}')
+st.divider()
+render_forward_scoreboard(raw)
 st.divider()
 st.subheader('Historical scorecard')
 st.caption('Historical chronological replay, not a record of predictions actually saved before kickoff. Live archived picks are reported separately above.')
