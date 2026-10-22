@@ -2,6 +2,9 @@
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from cfb.time_safe import replay_shadow
+from cfb.matchup_display_v07 import render_official_spread, render_shadow_card
+from cfb.shadow_forward_ui import render_shadow_forward
 import pandas as pd
 import streamlit as st
 from cfb.data import load_games
@@ -32,6 +35,7 @@ meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
 with st.spinner('Computing chronological predictions…'):
     forecasts = build_predictions(raw, boxscores=load_boxscores())
 df = pd.DataFrame(forecasts)
+shadow_research_by_id = {str(p['id']): p for p in replay_shadow(raw)}
 now = datetime.now(timezone.utc)
 with st.sidebar:
     st.header('View options')
@@ -61,6 +65,7 @@ a.metric('Matchups', len(subset)); b.metric('Season', season); c.metric('Week', 
 archived_rows = tracker_rows(raw)
 archived_by_id = {str(r['id']): r for r in archived_rows}
 render_market_coverage(raw, market_lines)
+render_shadow_forward(raw)
 st.subheader('Weekly record')
 # Retrospective estimates are calculated from chronological historical replay.
 # Apply the same top-25 filter as the matchup center for a coherent scorecard.
@@ -98,7 +103,7 @@ for g in subset.itertuples():
             x, y, z = st.columns(3)
             x.metric('Projected score (away – home)', f'{g.away_points:.0f} – {g.home_points:.0f}')
             with y:
-                render_spread(g._asdict())
+                render_official_spread(g._asdict())
             z.metric('Model total', f'{g.total:.1f}')
             st.progress(float(g.home_win_prob), text=f'{g.home}: {g.home_win_prob:.1%} win probability')
             if g.completed:
@@ -119,6 +124,8 @@ for g in subset.itertuples():
             render_intelligence(g._asdict())
             st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
         with right:
+            render_shadow_card(g._asdict(), shadow_research_by_id.get(str(g.id)))
+            st.divider()
             render_current_odds(
                 current_odds.get(str(g.id)),
                 g.home,
