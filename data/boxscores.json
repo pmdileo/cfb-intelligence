@@ -1,4 +1,308 @@
 {
+  "401520401": {
+    "236": {
+      "first_downs": 11.0,
+      "offensive_plays": null,
+      "total_yards": 233.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "333": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 574.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520402": {
+    "2229": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 341.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "8": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 510.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520404": {
+    "166": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 414.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2": {
+      "first_downs": 12.0,
+      "offensive_plays": null,
+      "total_yards": 213.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520406": {
+    "2294": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 281.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "356": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 280.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520407": {
+    "2348": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 269.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "55": {
+      "first_downs": 29.0,
+      "offensive_plays": null,
+      "total_yards": 628.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520408": {
+    "113": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 391.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2335": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 549.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520409": {
+    "2247": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 361.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "99": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 582.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520411": {
+    "2393": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 427.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2638": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 453.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    }
+  },
+  "401520413": {
+    "142": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 508.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "57": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 500.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520415": {
+    "135": {
+      "first_downs": 10.0,
+      "offensive_plays": null,
+      "total_yards": 159.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "194": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 434.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520418": {
+    "2579": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 257.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "96": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 293.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401520419": {
+    "2633": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 277.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "61": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 472.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520422": {
+    "158": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 364.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "275": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 316.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520423": {
+    "2534": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 357.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "98": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 465.0,
+      "turnovers": 5.0,
+      "yards_per_play": null
+    }
+  },
+  "401520424": {
+    "145": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 307.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "344": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 303.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520425": {
+    "158": {
+      "first_downs": 10.0,
+      "offensive_plays": null,
+      "total_yards": 264.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2294": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 257.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520426": {
+    "142": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 370.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "8": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 225.0,
+      "turnovers": 5.0,
+      "yards_per_play": null
+    }
+  },
+  "401520427": {
+    "2": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 337.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "333": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 451.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520428": {
+    "2229": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 301.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "98": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 407.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
   "401520429": {
     "52": {
       "first_downs": 16.0,
@@ -31,6 +335,166 @@
       "yards_per_play": null
     }
   },
+  "401520431": {
+    "356": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 455.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    },
+    "77": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 379.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520432": {
+    "96": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 289.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "97": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 403.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401520433": {
+    "245": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 390.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "99": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 389.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520434": {
+    "130": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 338.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "194": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 378.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520435": {
+    "127": {
+      "first_downs": 5.0,
+      "offensive_plays": null,
+      "total_yards": 53.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "213": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 586.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401520436": {
+    "135": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 286.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "275": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 412.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520437": {
+    "166": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 455.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    },
+    "55": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 333.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520438": {
+    "2509": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 453.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "84": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 359.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401520439": {
+    "120": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 498.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "164": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 355.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520440": {
+    "2393": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 342.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2534": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 284.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
   "401520441": {
     "228": {
       "first_downs": 19.0,
@@ -44,6 +508,54 @@
       "offensive_plays": null,
       "total_yards": 169.0,
       "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401520442": {
+    "238": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 306.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2633": {
+      "first_downs": 31.0,
+      "offensive_plays": null,
+      "total_yards": 617.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520443": {
+    "113": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 289.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "41": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 414.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401520444": {
+    "2335": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 469.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2638": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 271.0,
+      "turnovers": 1.0,
       "yards_per_play": null
     }
   },
@@ -63,6 +575,134 @@
       "yards_per_play": null
     }
   },
+  "401524058": {
+    "12": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 443.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "254": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 438.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401524059": {
+    "2483": {
+      "first_downs": 31.0,
+      "offensive_plays": null,
+      "total_yards": 603.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "9": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 316.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401524060": {
+    "204": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 317.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "264": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 272.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401524061": {
+    "24": {
+      "first_downs": 12.0,
+      "offensive_plays": null,
+      "total_yards": 291.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "25": {
+      "first_downs": 29.0,
+      "offensive_plays": null,
+      "total_yards": 455.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401524062": {
+    "26": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 354.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "30": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 387.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401524063": {
+    "204": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 273.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2483": {
+      "first_downs": 28.0,
+      "offensive_plays": null,
+      "total_yards": 480.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401524064": {
+    "12": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 619.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "9": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 306.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401524065": {
+    "24": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 359.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "87": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 521.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    }
+  },
   "401524066": {
     "25": {
       "first_downs": 17.0,
@@ -79,6 +719,166 @@
       "yards_per_play": null
     }
   },
+  "401524067": {
+    "254": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 329.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "38": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 262.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401524068": {
+    "264": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 306.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "265": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 381.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401525442": {
+    "154": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 232.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "87": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 450.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525554": {
+    "153": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 457.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "228": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 466.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401525555": {
+    "150": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 429.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "258": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 448.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401525556": {
+    "2453": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 226.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "52": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 521.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401525557": {
+    "183": {
+      "first_downs": 15.0,
+      "offensive_plays": null,
+      "total_yards": 259.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "59": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 344.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401525559": {
+    "152": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 408.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "259": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 349.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525560": {
+    "103": {
+      "first_downs": 15.0,
+      "offensive_plays": null,
+      "total_yards": 294.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2390": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 532.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525561": {
+    "150": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 317.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "221": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 308.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
   "401525562": {
     "152": {
       "first_downs": 27.0,
@@ -92,6 +892,182 @@
       "offensive_plays": null,
       "total_yards": 384.0,
       "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401525563": {
+    "154": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 384.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "183": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 468.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525564": {
+    "258": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 286.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "259": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 500.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525894": {
+    "197": {
+      "first_downs": 28.0,
+      "offensive_plays": null,
+      "total_yards": 501.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "248": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 393.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401525895": {
+    "251": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 404.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "66": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 332.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525896": {
+    "2305": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 396.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2306": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 331.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525897": {
+    "239": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 347.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2628": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 531.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525898": {
+    "2116": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 486.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2641": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 446.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525899": {
+    "2132": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 332.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "277": {
+      "first_downs": 31.0,
+      "offensive_plays": null,
+      "total_yards": 634.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525900": {
+    "201": {
+      "first_downs": 30.0,
+      "offensive_plays": null,
+      "total_yards": 607.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2628": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 520.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401525901": {
+    "251": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 528.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2641": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 198.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401525902": {
+    "239": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 334.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "277": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 519.0,
+      "turnovers": 0.0,
       "yards_per_play": null
     }
   },
@@ -127,6 +1103,150 @@
       "yards_per_play": null
     }
   },
+  "401525905": {
+    "197": {
+      "first_downs": 28.0,
+      "offensive_plays": null,
+      "total_yards": 503.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "252": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 327.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401525906": {
+    "2116": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 476.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "248": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 259.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531345": {
+    "202": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 434.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "249": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 593.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401531346": {
+    "151": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 409.0,
+      "turnovers": 5.0,
+      "yards_per_play": null
+    },
+    "202": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 446.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531376": {
+    "2636": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 375.0,
+      "turnovers": 5.0,
+      "yards_per_play": null
+    },
+    "2655": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 352.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531385": {
+    "218": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 378.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "5": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 505.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401531386": {
+    "249": {
+      "first_downs": 36.0,
+      "offensive_plays": null,
+      "total_yards": 644.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "5": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 506.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401531394": {
+    "218": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 465.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "235": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 443.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531409": {
+    "242": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 380.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2429": {
+      "first_downs": 11.0,
+      "offensive_plays": null,
+      "total_yards": 158.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
   "401531410": {
     "2429": {
       "first_downs": 15.0,
@@ -140,6 +1260,454 @@
       "offensive_plays": null,
       "total_yards": 503.0,
       "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531421": {
+    "2226": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 279.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "242": {
+      "first_downs": 32.0,
+      "offensive_plays": null,
+      "total_yards": 465.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531435": {
+    "2426": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 253.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2567": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 487.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531917": {
+    "290": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 356.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "295": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 346.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401531918": {
+    "2026": {
+      "first_downs": 24.0,
+      "offensive_plays": null,
+      "total_yards": 366.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "256": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 350.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401531919": {
+    "2032": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 487.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "326": {
+      "first_downs": 32.0,
+      "offensive_plays": null,
+      "total_yards": 539.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    }
+  },
+  "401531920": {
+    "276": {
+      "first_downs": 10.0,
+      "offensive_plays": null,
+      "total_yards": 201.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "6": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 393.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531921": {
+    "2653": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 367.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "309": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 348.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531922": {
+    "2026": {
+      "first_downs": 29.0,
+      "offensive_plays": null,
+      "total_yards": 532.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "290": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 360.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    }
+  },
+  "401531923": {
+    "256": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 481.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "324": {
+      "first_downs": 14.0,
+      "offensive_plays": null,
+      "total_yards": 328.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    }
+  },
+  "401531924": {
+    "2032": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 305.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "276": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 493.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401531925": {
+    "2247": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 300.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "295": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 313.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531926": {
+    "2433": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 239.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "309": {
+      "first_downs": 29.0,
+      "offensive_plays": null,
+      "total_yards": 476.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401531927": {
+    "2572": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 286.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2653": {
+      "first_downs": 25.0,
+      "offensive_plays": null,
+      "total_yards": 427.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401531928": {
+    "326": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 479.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "6": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 476.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401532448": {
+    "2050": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 388.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2309": {
+      "first_downs": 9.0,
+      "offensive_plays": null,
+      "total_yards": 97.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401532449": {
+    "2084": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 337.0,
+      "turnovers": 3.0,
+      "yards_per_play": null
+    },
+    "2199": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 367.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532450": {
+    "189": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 360.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2711": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 258.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401532451": {
+    "2117": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 335.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2649": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 358.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401532452": {
+    "195": {
+      "first_downs": 27.0,
+      "offensive_plays": null,
+      "total_yards": 394.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2006": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 183.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532453": {
+    "2309": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 366.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2459": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 426.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532454": {
+    "193": {
+      "first_downs": 11.0,
+      "offensive_plays": null,
+      "total_yards": 216.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "2050": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 365.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401532619": {
+    "328": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 373.0,
+      "turnovers": 4.0,
+      "yards_per_play": null
+    },
+    "68": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 445.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    }
+  },
+  "401532620": {
+    "2751": {
+      "first_downs": 20.0,
+      "offensive_plays": null,
+      "total_yards": 472.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "62": {
+      "first_downs": 17.0,
+      "offensive_plays": null,
+      "total_yards": 345.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401532621": {
+    "2440": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 327.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "36": {
+      "first_downs": 23.0,
+      "offensive_plays": null,
+      "total_yards": 414.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532622": {
+    "167": {
+      "first_downs": 26.0,
+      "offensive_plays": null,
+      "total_yards": 528.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "278": {
+      "first_downs": 13.0,
+      "offensive_plays": null,
+      "total_yards": 229.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532623": {
+    "21": {
+      "first_downs": 18.0,
+      "offensive_plays": null,
+      "total_yards": 300.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    },
+    "23": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 355.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532624": {
+    "2005": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 404.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "2439": {
+      "first_downs": 15.0,
+      "offensive_plays": null,
+      "total_yards": 465.0,
+      "turnovers": 2.0,
+      "yards_per_play": null
+    }
+  },
+  "401532625": {
+    "2005": {
+      "first_downs": 16.0,
+      "offensive_plays": null,
+      "total_yards": 337.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    },
+    "68": {
+      "first_downs": 19.0,
+      "offensive_plays": null,
+      "total_yards": 409.0,
+      "turnovers": 2.0,
       "yards_per_play": null
     }
   },
@@ -171,6 +1739,38 @@
       "first_downs": 17.0,
       "offensive_plays": null,
       "total_yards": 341.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532628": {
+    "23": {
+      "first_downs": 21.0,
+      "offensive_plays": null,
+      "total_yards": 482.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "2439": {
+      "first_downs": 22.0,
+      "offensive_plays": null,
+      "total_yards": 411.0,
+      "turnovers": 1.0,
+      "yards_per_play": null
+    }
+  },
+  "401532629": {
+    "167": {
+      "first_downs": 35.0,
+      "offensive_plays": null,
+      "total_yards": 539.0,
+      "turnovers": 0.0,
+      "yards_per_play": null
+    },
+    "328": {
+      "first_downs": 30.0,
+      "offensive_plays": null,
+      "total_yards": 500.0,
       "turnovers": 1.0,
       "yards_per_play": null
     }
