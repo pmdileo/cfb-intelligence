@@ -1,38 +1,37 @@
-# Install EDGE view (v0.7.3)
+# v0.7.4 — week-correct EDGE, conference-filtered Matchup Center, shared full matchup details
 
-Create branch `v0.7.3-edge-tab` from `main`.
+## What changes
+- EDGE uses **only** the selected season + week, independent of Top-25 and conference filters.
+- Matchup Center adds its own conference filter. A game qualifies when either participating team belongs to the selected conference. "All conferences" keeps the full list. Unmapped teams remain visible as "Other / Unmapped".
+- EDGE displays one **identical full Matchup Center dropdown per qualifying game**, even if both ATS and O/U qualify. Reasons appear above the dropdown. Existing graphs, archived results, sportsbook observations, and JSON export remain intact.
 
-Upload:
-- `cfb/edge_scanner.py`
-- `cfb/edge_tab_ui.py`
-- `tests/test_edge_scanner_v073.py`
+## Install on `v0.7.4-week-and-matchup` (from main)
 
-In `app.py`, add this import near existing Streamlit UI imports:
+This archive includes an *idempotent app patcher* because the full Matchup Center is a long block of code. Moving it into a reusable function requires coordinated edits; do **not** manually paste another copy of the matchup block.
 
-```python
-from cfb.edge_tab_ui import render_edge_tab
-```
+1. Upload **three root-level files** to that branch: `conferences.py`, `edge_week_ui.py`, `apply_patch.py`.
+2. On the same branch edit `.github/workflows/weekly.yml`. Immediately **before** `- name: Run regression tests`, add:
 
-Find the following **existing** line (right above `st.subheader('Matchup center')`):
+   ```yaml
+      - name: Install v0.7.4 UI integration
+        run: python apply_patch.py
+   ```
 
-```python
-render_records(archived_rows, historical_scope.to_dict('records'), season, week, market_lines)
-```
+3. In the existing final `Commit updated datasets` step change:
 
-Immediately **after** that line, insert:
+   `git add -A data/`
 
-```python
-st.divider()
-view = st.radio("Navigate", ["Matchup center", "EDGE"], horizontal=True, key="main_view")
-if view == "EDGE":
-    render_edge_tab(forecasts, shadow_research_by_id, current_odds, now)
-    st.stop()
-```
+   to:
 
-This provides a two-choice tab-like switch. EDGE shows the full national upcoming schedule regardless of the Matchup Center's Top 25/week filters, intentionally.
+   `git add -A data/ app.py cfb/conferences.py cfb/edge_week_ui.py`
 
-No changes to forecasting math, archived predictions, or odds-collection workflow.
+4. Run **Refresh college football data** on this branch. The patching step generates the final app and moves the helper files into `cfb/`. The subsequent tests and commit happen in the same run. **Do not merge if the patch step fails.**
+5. After successful run, open `app.py` on the branch: verify imports `game_in_conference`, `render_edge_week`, and a `render_matchup` function. Check `cfb/conferences.py` and `cfb/edge_week_ui.py` exist.
+6. Remove the one-time `Install v0.7.4 UI integration` step from `weekly.yml` before merging. The already-patched `app.py` stays patched. You may also remove the root-level install files `apply_patch.py`, `conferences.py`, `edge_week_ui.py` once their `cfb/` copies exist; no need to retain patcher in deployed code.
+7. Rerun the refresh on the cleaned branch, confirm tests, then merge to `main`.
 
-Commit on the feature branch. Run `Refresh college football data` on that branch and check all tests pass. Open a PR into `main` after verification.
-
-**Important:** The default 4.5-point gap is a proposed screening threshold, not a calibrated wagering edge. Betting performance must be evaluated with immutable before-kickoff line snapshots and prices including vig. The scanner uses recently observed consensus and rejects games kicked off / quoted after kickoff. It does not generate bets or place wagers.
+## Warnings
+- This patch targets the verified v0.7.3 `app.py` layout. Its safety assertions will abort if the app has changed unexpectedly.
+- Conference mappings are curated 2026 display-only data. Realignment or ambiguous ESPN school names can cause some games to be marked Other / Unmapped. They are never silently assigned by inference.
+- EDGE is an exploratory model–market discrepancy screen, not a calibrated wagering signal.
+- Original matchup presentation is reused verbatim rather than restated in a separate UI.
