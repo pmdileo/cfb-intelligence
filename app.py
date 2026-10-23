@@ -6,6 +6,7 @@ from cfb.time_safe import replay_shadow
 from cfb.matchup_display_v07 import render_official_spread, render_shadow_card
 from cfb.shadow_forward_ui import render_shadow_forward
 from cfb.forward_scoreboard_ui import render_forward_scoreboard
+from cfb.edge_tab_ui import render_edge_tab
 import pandas as pd
 import streamlit as st
 from cfb.data import load_games
@@ -76,7 +77,21 @@ if ranked_only:
 if not show_completed:
     historical_scope = historical_scope[~historical_scope.completed]
 render_records(archived_rows, historical_scope.to_dict('records'), season, week, market_lines)
-
+st.divider()
+view = st.radio(
+    "Navigate",
+    ["Matchup center", "EDGE"],
+    horizontal=True,
+    key="main_view"
+)
+if view == "EDGE":
+    render_edge_tab(
+        forecasts,
+        shadow_research_by_id,
+        current_odds,
+        now
+    )
+    st.stop()
 st.subheader('Matchup center')
 if subset.empty:
     st.info('No qualifying matchups for this week. Try a different filter.')
