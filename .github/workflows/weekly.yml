@@ -44,9 +44,6 @@ jobs:
       - name: Archive Shadow research forecasts
         run: python archive_shadow.py
 
-      - name: Install v0.7.4 UI integration
-        run: python apply_patch.py
-
       - name: Run regression tests
         run: python -m pytest -q tests
         
