@@ -8,7 +8,8 @@ from cfb.shadow_forward_ui import render_shadow_forward
 from cfb.forward_scoreboard_ui import render_forward_scoreboard
 from cfb.conferences import game_in_conference, CANONICAL
 from cfb.edge_select_ui import render_edge_selected
-from cfb.briefing_ui import render_quick_brief, render_nil_panelimport pandas as pd
+from cfb.briefing_ui import render_quick_brief, render_nil_panel
+import pandas as pd
 import streamlit as st
 from cfb.data import load_games
 from cfb.advanced import load_boxscores
@@ -86,8 +87,8 @@ def render_matchup(game):
     from collections import namedtuple
     g = namedtuple('Matchup', list(game.keys()))(**game)
     with st.expander('Quick game briefing and NIL comparison'):
-    render_quick_brief(game, shadow_research_by_id)
-    render_nil_panel(game)
+        render_quick_brief(game, shadow_research_by_id)
+        render_nil_panel(game)
     title = f"{'#'+str(int(g.away_rank))+' ' if pd.notna(g.away_rank) else ''}{g.away} @ {'#'+str(int(g.home_rank))+' ' if pd.notna(g.home_rank) else ''}{g.home}"
     archived = archived_by_id.get(str(g.id))
     if archived is not None:
@@ -176,10 +177,10 @@ view = st.radio(
 )
 
 if view == "EDGE":
-render_edge_selected(
-    forecasts, shadow_research_by_id, current_odds, now, season, week, render_matchup
-)
-st.stop()
+    render_edge_selected(
+        forecasts, shadow_research_by_id, current_odds, now, season, week, render_matchup
+    )
+    st.stop()
 st.subheader('Matchup center')
 if subset.empty:
     st.info('No qualifying matchups for this week. Try a different filter.')
