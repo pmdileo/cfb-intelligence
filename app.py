@@ -86,9 +86,6 @@ st.divider()
 def render_matchup(game):
     from collections import namedtuple
     g = namedtuple('Matchup', list(game.keys()))(**game)
-    with st.expander('Quick game briefing and NIL comparison'):
-        render_quick_brief(game, shadow_research_by_id)
-        render_nil_panel(game)
     title = f"{'#'+str(int(g.away_rank))+' ' if pd.notna(g.away_rank) else ''}{g.away} @ {'#'+str(int(g.home_rank))+' ' if pd.notna(g.home_rank) else ''}{g.home}"
     archived = archived_by_id.get(str(g.id))
     if archived is not None:
@@ -102,72 +99,78 @@ def render_matchup(game):
         status = {'su': 'pending', 'ats': 'pending', 'ou': 'pending'}
         provenance = 'pending'
     with st.expander(title + (' · FINAL' if g.completed else '')):
-        render_result_strip(status, provenance)
-        if archived is not None:
-            st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
-                       "results graded against the archived forecast, not today's recalculation.")
-        historical_market = market_lines.get(str(g.id))
-        left, right = st.columns([2.35, 1])
-        with left:
-            x, y, z = st.columns(3)
-            x.metric('Projected score (away – home)', f'{g.away_points:.0f} – {g.home_points:.0f}')
-            with y:
-                render_official_spread(g._asdict())
-            z.metric('Model total', f'{g.total:.1f}')
-            st.progress(float(g.home_win_prob), text=f'{g.home}: {g.home_win_prob:.1%} win probability')
-            if g.completed:
-                st.info(f'Final: {g.away} {g.away_score} – {g.home} {g.home_score}')
-            st.markdown('**What drives the predicted home margin?**')
-            explanation = pd.DataFrame({'Factor':['Elo rating difference','Home field','Recent scoring form','Recent opponent strength', 'Yards/play advantage (when available)'],
-                'Points toward home margin':[g.elo_contribution,g.venue_contribution,g.form_contribution,g.sos_contribution,g.ypp_contribution]})
-            st.bar_chart(explanation.set_index('Factor'))
-            st.caption('Positive = favors home team; negative = favors away team. Contributions are rounded; calculations are heuristic, not calibrated effect estimates.')
-            st.markdown('**Recent performance comparison**')
-            def fmt(value): return '—' if value is None or pd.isna(value) else f'{value:+.1f}'
-            comparison = pd.DataFrame({
-                'Statistic':['Pregame Elo','Recent points/game*','Recent points allowed/game*','Prior opponent avg Elo – 1500','Venue-specific prior margin','Same-season games','Yards per play (available previous games)','Opponent yards per play (previous games)','Box-score samples'],
-                g.away:[g.away_elo,g.away_ppg,g.away_allowed,g.away_sos_elo,fmt(g.away_away_margin),g.away_games,fmt(g.away_ypp),fmt(g.away_ypp_allowed),g.away_ypp_samples],
-                g.home:[g.home_elo,g.home_ppg,g.home_allowed,g.home_sos_elo,fmt(g.home_home_margin),g.home_games,fmt(g.home_ypp),fmt(g.home_ypp_allowed),g.home_ypp_samples],
-            })
-            st.dataframe(comparison, hide_index=True, use_container_width=True)
-            render_intelligence(g._asdict())
-            st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
-        with right:
-            render_shadow_card(g._asdict(), shadow_research_by_id.get(str(g.id)))
-            st.divider()
-            render_current_odds(
-                current_odds.get(str(g.id)),
-                g.home,
-                g.away,
-                g.date
-            )
-            st.divider()
-            st.markdown('**Markets and external intelligence**')
-            if historical_market:
-                st.markdown('**Historical sportsbook consensus (NOT LIVE)**')
-                mm = historical_market.get('market_home_margin')
-                mt = historical_market.get('market_total')
-                if mm is not None:
-                    st.write(f"Market spread: **{g.home if mm > 0 else g.away if mm < 0 else 'Pick em'}** " +
-                             (f"-{abs(mm):.1f}" if mm else "(even)"))
-                    st.write(f"Model vs market margin: **{g.home_margin - mm:+.1f} points** (home-team view)")
-                if mt is not None:
-                    st.write(f"Market total: **{mt:.1f}** · Model difference: **{g.total - mt:+.1f}**")
-                st.caption(f"{historical_market.get('provider_count', 0)} provider(s). Historical line timing UNVERIFIED; not a live pregame quote.")
-                render_market_providers(historical_market, g.home, g.away)
-            else:
-                st.caption('No historical sportsbook consensus matched for this game.')
-            st.write('ESPN expert pick: **not integrated**')
-            st.write('CBS expert pick: **not integrated**')
-            st.write('DraftKings: **not available**')
-            st.write('FanDuel: **not available**')
-            st.write('NIL estimated spending: **not available**')
-            st.write('Coach / player injuries: **not integrated**')
-            st.caption('Missing information is never treated as a zero or fabricated estimate.')
-            st.link_button('Open ESPN matchup', g.source_url)
-        st.caption(f'Model: {g.model_version} · Kickoff {g.date} · {g.venue}')
-        data = pd.Series(g._asdict()).replace({float('nan'): None}).to_dict()
-        st.download_button('Export matchup JSON', json.dumps(data, default=str, indent=2), file_name=f'game-{g.id}.json', key=f'dl-{g.id}')
+        analysis_tab, briefing_tab, nil_tab = st.tabs(['Game analysis', 'Quick briefing', 'NIL comparison'])
+        with briefing_tab:
+            render_quick_brief(game, shadow_research_by_id)
+        with nil_tab:
+            render_nil_panel(game)
+        with analysis_tab:
+            render_result_strip(status, provenance)
+            if archived is not None:
+                st.caption(f"Archived model score: {archived['away_points']:.0f}–{archived['home_points']:.0f}; "
+                           "results graded against the archived forecast, not today's recalculation.")
+            historical_market = market_lines.get(str(g.id))
+            left, right = st.columns([2.35, 1])
+            with left:
+                x, y, z = st.columns(3)
+                x.metric('Projected score (away – home)', f'{g.away_points:.0f} – {g.home_points:.0f}')
+                with y:
+                    render_official_spread(g._asdict())
+                z.metric('Model total', f'{g.total:.1f}')
+                st.progress(float(g.home_win_prob), text=f'{g.home}: {g.home_win_prob:.1%} win probability')
+                if g.completed:
+                    st.info(f'Final: {g.away} {g.away_score} – {g.home} {g.home_score}')
+                st.markdown('**What drives the predicted home margin?**')
+                explanation = pd.DataFrame({'Factor':['Elo rating difference','Home field','Recent scoring form','Recent opponent strength', 'Yards/play advantage (when available)'],
+                    'Points toward home margin':[g.elo_contribution,g.venue_contribution,g.form_contribution,g.sos_contribution,g.ypp_contribution]})
+                st.bar_chart(explanation.set_index('Factor'))
+                st.caption('Positive = favors home team; negative = favors away team. Contributions are rounded; calculations are heuristic, not calibrated effect estimates.')
+                st.markdown('**Recent performance comparison**')
+                def fmt(value): return '—' if value is None or pd.isna(value) else f'{value:+.1f}'
+                comparison = pd.DataFrame({
+                    'Statistic':['Pregame Elo','Recent points/game*','Recent points allowed/game*','Prior opponent avg Elo – 1500','Venue-specific prior margin','Same-season games','Yards per play (available previous games)','Opponent yards per play (previous games)','Box-score samples'],
+                    g.away:[g.away_elo,g.away_ppg,g.away_allowed,g.away_sos_elo,fmt(g.away_away_margin),g.away_games,fmt(g.away_ypp),fmt(g.away_ypp_allowed),g.away_ypp_samples],
+                    g.home:[g.home_elo,g.home_ppg,g.home_allowed,g.home_sos_elo,fmt(g.home_home_margin),g.home_games,fmt(g.home_ypp),fmt(g.home_ypp_allowed),g.home_ypp_samples],
+                })
+                st.dataframe(comparison, hide_index=True, use_container_width=True)
+                render_intelligence(g._asdict())
+                st.caption('*Scoring rates are shrunk toward a league prior; yards/play appears only for previous games with usable box scores. No yards/play estimates are fabricated. Historical completeness varies.')
+            with right:
+                render_shadow_card(g._asdict(), shadow_research_by_id.get(str(g.id)))
+                st.divider()
+                render_current_odds(
+                    current_odds.get(str(g.id)),
+                    g.home,
+                    g.away,
+                    g.date
+                )
+                st.divider()
+                st.markdown('**Markets and external intelligence**')
+                if historical_market:
+                    st.markdown('**Historical sportsbook consensus (NOT LIVE)**')
+                    mm = historical_market.get('market_home_margin')
+                    mt = historical_market.get('market_total')
+                    if mm is not None:
+                        st.write(f"Market spread: **{g.home if mm > 0 else g.away if mm < 0 else 'Pick em'}** " +
+                                 (f"-{abs(mm):.1f}" if mm else "(even)"))
+                        st.write(f"Model vs market margin: **{g.home_margin - mm:+.1f} points** (home-team view)")
+                    if mt is not None:
+                        st.write(f"Market total: **{mt:.1f}** · Model difference: **{g.total - mt:+.1f}**")
+                    st.caption(f"{historical_market.get('provider_count', 0)} provider(s). Historical line timing UNVERIFIED; not a live pregame quote.")
+                    render_market_providers(historical_market, g.home, g.away)
+                else:
+                    st.caption('No historical sportsbook consensus matched for this game.')
+                st.write('ESPN expert pick: **not integrated**')
+                st.write('CBS expert pick: **not integrated**')
+                st.write('DraftKings: **not available**')
+                st.write('FanDuel: **not available**')
+                st.write('NIL estimated spending: **not available**')
+                st.write('Coach / player injuries: **not integrated**')
+                st.caption('Missing information is never treated as a zero or fabricated estimate.')
+                st.link_button('Open ESPN matchup', g.source_url)
+            st.caption(f'Model: {g.model_version} · Kickoff {g.date} · {g.venue}')
+            data = pd.Series(g._asdict()).replace({float('nan'): None}).to_dict()
+            st.download_button('Export matchup JSON', json.dumps(data, default=str, indent=2), file_name=f'game-{g.id}.json', key=f'dl-{g.id}')
 
 view = st.radio(
     "Navigate",
