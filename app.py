@@ -7,8 +7,8 @@ from cfb.matchup_display_v07 import render_official_spread, render_shadow_card
 from cfb.shadow_forward_ui import render_shadow_forward
 from cfb.forward_scoreboard_ui import render_forward_scoreboard
 from cfb.conferences import game_in_conference, CANONICAL
-from cfb.edge_week_ui import render_edge_week
-import pandas as pd
+from cfb.edge_select_ui import render_edge_selected
+from cfb.briefing_ui import render_quick_brief, render_nil_panelimport pandas as pd
 import streamlit as st
 from cfb.data import load_games
 from cfb.advanced import load_boxscores
