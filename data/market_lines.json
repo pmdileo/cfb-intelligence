@@ -6180,7 +6180,7 @@
     "espn_game_id": "401858509",
     "line_timing": "UNVERIFIED",
     "market_home_margin": -6.5,
-    "market_total": 51.5,
+    "market_total": 51.0,
     "provider_count": 2,
     "providers": {
       "Bovada": {
@@ -6189,7 +6189,7 @@
       },
       "DraftKings": {
         "home_spread": 6.5,
-        "total": 51.5
+        "total": 50.5
       }
     },
     "season": 2026,
