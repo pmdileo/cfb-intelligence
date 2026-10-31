@@ -98213,7 +98213,7 @@
     "home_score": null,
     "away_score": null,
     "completed": false,
-    "status": "STATUS_IN_PROGRESS",
+    "status": "STATUS_HALFTIME",
     "neutral": false,
     "venue": "Jerry Richardson Stadium",
     "source": "ESPN unofficial scoreboard",

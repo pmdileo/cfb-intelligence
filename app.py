@@ -6,7 +6,8 @@ from cfb.time_safe import replay_shadow
 from cfb.matchup_display_v07 import render_official_spread, render_shadow_card
 from cfb.shadow_forward_ui import render_shadow_forward
 from cfb.forward_scoreboard_ui import render_forward_scoreboard
-from cfb.edge_tab_ui import render_edge_tab
+from cfb.conferences import game_in_conference, CANONICAL
+from cfb.edge_week_ui import render_edge_week
 import pandas as pd
 import streamlit as st
 from cfb.data import load_games
@@ -49,6 +50,8 @@ with st.sidebar:
     week = st.selectbox('Week', weeks, index=weeks.index(default_week) if default_week in weeks else len(weeks)-1)
     ranked_only = st.toggle('Only games involving Top 25 teams', value=True)
     show_completed = st.toggle('Include completed games', value=True)
+    st.caption('Conference selection applies only to Matchup Center.')
+    conference = st.selectbox('Matchup conference', ['All conferences'] + list(CANONICAL) + ['Other / Unmapped'])
     st.divider()
     st.caption('Top 25 event ranks come from the ESPN feed; they are not verified historical AP poll snapshots.')
     st.caption(f"Last successful refresh: {meta.get('refreshed_utc', 'unknown')}")
@@ -59,6 +62,7 @@ if ranked_only:
     subset = subset[subset.home_rank.notna() | subset.away_rank.notna()]
 if not show_completed:
     subset = subset[~subset.completed]
+subset = subset[subset.apply(lambda x: game_in_conference(x, conference), axis=1)]
 subset = subset.sort_values('date')
 a, b, c = st.columns(3)
 a.metric('Matchups', len(subset)); b.metric('Season', season); c.metric('Week', week)
@@ -78,24 +82,9 @@ if not show_completed:
     historical_scope = historical_scope[~historical_scope.completed]
 render_records(archived_rows, historical_scope.to_dict('records'), season, week, market_lines)
 st.divider()
-view = st.radio(
-    "Navigate",
-    ["Matchup center", "EDGE"],
-    horizontal=True,
-    key="main_view"
-)
-if view == "EDGE":
-    render_edge_tab(
-        forecasts,
-        shadow_research_by_id,
-        current_odds,
-        now
-    )
-    st.stop()
-st.subheader('Matchup center')
-if subset.empty:
-    st.info('No qualifying matchups for this week. Try a different filter.')
-for g in subset.itertuples():
+def render_matchup(game):
+    from collections import namedtuple
+    g = namedtuple('Matchup', list(game.keys()))(**game)
     title = f"{'#'+str(int(g.away_rank))+' ' if pd.notna(g.away_rank) else ''}{g.away} @ {'#'+str(int(g.home_rank))+' ' if pd.notna(g.home_rank) else ''}{g.home}"
     archived = archived_by_id.get(str(g.id))
     if archived is not None:
@@ -175,6 +164,22 @@ for g in subset.itertuples():
         st.caption(f'Model: {g.model_version} · Kickoff {g.date} · {g.venue}')
         data = pd.Series(g._asdict()).replace({float('nan'): None}).to_dict()
         st.download_button('Export matchup JSON', json.dumps(data, default=str, indent=2), file_name=f'game-{g.id}.json', key=f'dl-{g.id}')
+
+view = st.radio(
+    "Navigate",
+    ["Matchup center", "EDGE"],
+    horizontal=True,
+    key="main_view"
+)
+
+if view == "EDGE":
+    render_edge_week(forecasts, shadow_research_by_id, current_odds, now, season, week, render_matchup)
+    st.stop()
+st.subheader('Matchup center')
+if subset.empty:
+    st.info('No qualifying matchups for this week. Try a different filter.')
+for g in subset.to_dict('records'):
+    render_matchup(g)
 st.divider()
 render_forward_scoreboard(raw)
 st.divider()
