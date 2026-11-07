@@ -591,7 +591,7 @@
     "source": "The Odds API"
   },
   "401856738": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:45:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 10.0,
@@ -600,110 +600,110 @@
     "providers": {
       "BetMGM": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 54.5
       },
       "BetOnline.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.0
       },
       "BetRivers": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 53.5
       },
       "BetUS": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.0
       },
       "Bovada": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 54.0
       },
       "DraftKings": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 54.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 53.5
       },
       "FanDuel": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "LowVig.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.0
       },
       "MyBookie.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 54.0
       }
     },
     "source": "The Odds API"
   },
   "401856739": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:45:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 6.0,
+    "market_home_margin": 5.5,
     "market_total": 45.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 44.5
       },
       "BetOnline.ag": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.0
       },
       "BetRivers": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 45.0
       },
       "BetUS": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 45.0
       },
       "Bovada": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 45.5
       },
       "DraftKings": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 45.5
       },
       "FanDuel": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.5
       },
       "LowVig.ag": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.0
       },
       "MyBookie.ag": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 45.0
       }
     },
     "source": "The Odds API"
   },
   "401856740": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 6.0,
@@ -711,55 +711,55 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 52.5
       },
       "BetOnline.ag": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -6.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "BetRivers": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 52.5
       },
       "BetUS": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 53.0
       },
       "Bovada": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 52.5
       },
       "DraftKings": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 52.5
       },
       "FanDuel": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "LowVig.ag": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -6.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "MyBookie.ag": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 52.5
       }
     },
     "source": "The Odds API"
   },
   "401856741": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -3.5,
@@ -768,49 +768,49 @@
     "providers": {
       "BetMGM": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 56.5
       },
       "BetOnline.ag": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 56.5
       },
       "BetRivers": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 56.5
       },
       "BetUS": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 56.5
       },
       "Bovada": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 56.5
       },
       "DraftKings": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 56.5
       },
       "FanDuel": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 56.5
       },
       "MyBookie.ag": {
         "home_spread": 3.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 56.5
       }
     },
     "source": "The Odds API"
   },
   "401856742": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T21:15:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 3.0,
@@ -818,55 +818,55 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -2.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 48.5
       },
       "BetOnline.ag": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "BetRivers": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 48.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 47.5
       },
       "BetUS": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 49.0
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 49.5
       },
       "Bovada": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 48.5
       },
       "DraftKings": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 48.5
       },
       "FanDuel": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       },
       "LowVig.ag": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "MyBookie.ag": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 48.5
       }
     },
     "source": "The Odds API"
   },
   "401856743": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -2.5,
@@ -875,54 +875,54 @@
     "providers": {
       "BetMGM": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 41.5
       },
       "BetOnline.ag": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 42.5
       },
       "BetRivers": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 42.5
       },
       "BetUS": {
         "home_spread": 3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 42.5
       },
       "Bovada": {
-        "home_spread": 3.0,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 42.5
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 42.0
       },
       "DraftKings": {
-        "home_spread": 3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 42.5
       },
       "FanDuel": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 42.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 41.5
       },
       "LowVig.ag": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 42.5
       },
       "MyBookie.ag": {
         "home_spread": 3.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 42.0
       }
     },
     "source": "The Odds API"
   },
   "401856744": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 7.0,
@@ -931,104 +931,104 @@
     "providers": {
       "BetMGM": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 52.5
       },
       "BetOnline.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "BetRivers": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 52.0
       },
       "BetUS": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 52.5
       },
       "Bovada": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 52.5
       },
       "DraftKings": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 52.5
       },
       "FanDuel": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.5
       },
       "LowVig.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "MyBookie.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 52.5
       }
     },
     "source": "The Odds API"
   },
   "401856745": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T23:15:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 5.5,
+    "market_home_margin": 6.0,
     "market_total": 49.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 49.5
       },
       "BetOnline.ag": {
         "home_spread": -5.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "BetRivers": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 50.0
       },
       "BetUS": {
-        "home_spread": -5.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 49.5
       },
       "Bovada": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 49.5
       },
       "DraftKings": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 49.5
       },
       "FanDuel": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "LowVig.ag": {
         "home_spread": -5.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "MyBookie.ag": {
-        "home_spread": -5.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 49.5
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 49.0
       }
     },
     "source": "The Odds API"
@@ -1819,226 +1819,226 @@
     "source": "The Odds API"
   },
   "401856849": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 4.5,
-    "market_total": 48.5,
+    "market_total": 49.25,
     "provider_count": 8,
     "providers": {
       "BetMGM": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 48.5
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 49.5
       },
       "BetOnline.ag": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 48.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 49.5
       },
       "BetRivers": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 48.5
       },
       "BetUS": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 48.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 49.0
       },
       "Bovada": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 48.5
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 49.5
       },
       "DraftKings": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 48.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 49.5
       },
       "FanDuel": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       },
       "MyBookie.ag": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 48.5
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 49.0
       }
     },
     "source": "The Odds API"
   },
   "401856850": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:45:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 3.0,
-    "market_total": 47.5,
+    "market_home_margin": 3.5,
+    "market_total": 48.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 47.5
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 48.5
       },
       "BetOnline.ag": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "BetRivers": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -3.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 47.5
       },
       "BetUS": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 47.5
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 48.0
       },
       "Bovada": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": -3.5,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 48.5
       },
       "DraftKings": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -3.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 48.5
       },
       "FanDuel": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "LowVig.ag": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "MyBookie.ag": {
-        "home_spread": -3.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 47.5
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 48.0
       }
     },
     "source": "The Odds API"
   },
   "401856851": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 10.5,
-    "market_total": 61.5,
+    "market_total": 61.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 61.5
       },
       "BetOnline.ag": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 61.0
       },
       "BetRivers": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 61.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 60.5
       },
       "BetUS": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 61.0
       },
       "Bovada": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 61.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 61.0
       },
       "DraftKings": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 61.5
       },
       "FanDuel": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 60.5
       },
       "LowVig.ag": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 61.0
       },
       "MyBookie.ag": {
         "home_spread": -10.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 61.5
       }
     },
     "source": "The Odds API"
   },
   "401856852": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 3.5,
+    "market_home_margin": 3.0,
     "market_total": 48.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -3.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 48.5
       },
       "BetOnline.ag": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       },
       "BetRivers": {
-        "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -3.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 48.5
       },
       "BetUS": {
-        "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -3.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 48.5
       },
       "Bovada": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 48.5
       },
       "DraftKings": {
-        "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -3.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 48.5
       },
       "FanDuel": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       },
       "LowVig.ag": {
         "home_spread": -3.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       },
       "MyBookie.ag": {
-        "home_spread": -3.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -3.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 48.5
       }
     },
     "source": "The Odds API"
   },
   "401856853": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 10.0,
@@ -2047,54 +2047,54 @@
     "providers": {
       "BetMGM": {
         "home_spread": -9.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 50.5
       },
       "BetOnline.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.0
       },
       "BetRivers": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 50.5
       },
       "BetUS": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 51.0
       },
       "Bovada": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 51.0
       },
       "DraftKings": {
-        "home_spread": -9.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 51.5
+        "home_spread": -10.0,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 50.5
       },
       "FanDuel": {
         "home_spread": -9.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 50.5
       },
       "LowVig.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.0
       },
       "MyBookie.ag": {
         "home_spread": -10.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 51.0
       }
     },
     "source": "The Odds API"
   },
   "401856854": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T18:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -6.5,
@@ -2102,111 +2102,86 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 7.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 62.5
       },
       "BetOnline.ag": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.0
       },
       "BetRivers": {
-        "home_spread": 7.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": 6.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 63.5
       },
       "BetUS": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 62.0
       },
       "Bovada": {
-        "home_spread": 6.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 7.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 62.5
       },
       "DraftKings": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 62.5
       },
       "FanDuel": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.5
       },
       "LowVig.ag": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.0
       },
       "MyBookie.ag": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 62.5
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 62.0
       }
     },
     "source": "The Odds API"
   },
   "401856855": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
-    "commence_time": "2026-11-07T03:15:00Z",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
+    "commence_time": "2026-11-07T03:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 6.5,
-    "market_total": 46.5,
-    "provider_count": 9,
+    "market_home_margin": 1.5,
+    "market_total": 53.0,
+    "provider_count": 4,
     "providers": {
       "BetMGM": {
-        "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 46.5
-      },
-      "BetOnline.ag": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 47.0
-      },
-      "BetRivers": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 46.5
-      },
-      "BetUS": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 46.5
+        "home_spread": -1.5,
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 53.5
       },
       "Bovada": {
-        "home_spread": -7.0,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 46.5
+        "home_spread": -1.5,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 52.5
       },
       "DraftKings": {
-        "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 46.5
+        "home_spread": -1.5,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 52.5
       },
       "FanDuel": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 46.5
-      },
-      "LowVig.ag": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 47.0
-      },
-      "MyBookie.ag": {
-        "home_spread": -7.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 46.5
+        "home_spread": -1.5,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 53.5
       }
     },
     "source": "The Odds API"
   },
   "401856856": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T02:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 16.0,
@@ -2215,54 +2190,54 @@
     "providers": {
       "BetMGM": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 65.5
       },
       "BetOnline.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 65.5
       },
       "BetRivers": {
-        "home_spread": -16.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -16.0,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 65.5
       },
       "BetUS": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 65.5
       },
       "Bovada": {
         "home_spread": -16.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 65.5
       },
       "DraftKings": {
         "home_spread": -16.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 65.5
       },
       "FanDuel": {
         "home_spread": -16.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 65.5
       },
       "LowVig.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 65.5
       },
       "MyBookie.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 65.5
       }
     },
     "source": "The Odds API"
   },
   "401856858": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 7.0,
@@ -2271,14 +2246,14 @@
     "providers": {
       "DraftKings": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 47.5
       }
     },
     "source": "The Odds API"
   },
   "401856863": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -1.5,
@@ -2287,12 +2262,12 @@
     "providers": {
       "DraftKings": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 63.5
       },
       "FanDuel": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 64.5
       }
     },
@@ -2315,28 +2290,28 @@
     "source": "The Odds API"
   },
   "401856883": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 12.5,
-    "market_total": 46.5,
+    "market_total": 47.0,
     "provider_count": 2,
     "providers": {
       "DraftKings": {
         "home_spread": -12.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 46.5
       },
       "FanDuel": {
         "home_spread": -12.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 46.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 47.5
       }
     },
     "source": "The Odds API"
   },
   "401856884": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 2.0,
@@ -2345,34 +2320,34 @@
     "providers": {
       "DraftKings": {
         "home_spread": -1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 55.5
       },
       "FanDuel": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       }
     },
     "source": "The Odds API"
   },
   "401856885": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 6.0,
-    "market_total": 47.0,
+    "market_total": 46.0,
     "provider_count": 2,
     "providers": {
       "DraftKings": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 46.5
       },
       "FanDuel": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 47.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 45.5
       }
     },
     "source": "The Odds API"
@@ -3128,63 +3103,63 @@
     "source": "The Odds API"
   },
   "401858285": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -2.5,
+    "market_home_margin": -2.0,
     "market_total": 49.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 2.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 49.5
       },
       "BetOnline.ag": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 2.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.0
       },
       "BetRivers": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 49.5
       },
       "BetUS": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 2.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 49.0
       },
       "Bovada": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 49.5
       },
       "DraftKings": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 49.5
       },
       "FanDuel": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "LowVig.ag": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 2.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.0
       },
       "MyBookie.ag": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 2.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 49.5
       }
     },
     "source": "The Odds API"
   },
   "401858286": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -4.0,
@@ -3192,104 +3167,104 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 51.5
       },
       "BetOnline.ag": {
         "home_spread": 4.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.5
       },
       "BetRivers": {
         "home_spread": 5.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 51.5
       },
       "BetUS": {
         "home_spread": 4.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 51.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 52.0
       },
       "Bovada": {
         "home_spread": 4.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 51.5
       },
       "DraftKings": {
         "home_spread": 4.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 51.5
       },
       "FanDuel": {
         "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.5
       },
       "LowVig.ag": {
         "home_spread": 4.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 51.5
       },
       "MyBookie.ag": {
         "home_spread": 4.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 52.0
       }
     },
     "source": "The Odds API"
   },
   "401858287": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -14.5,
-    "market_total": 62.0,
+    "market_total": 62.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 62.5
       },
       "BetOnline.ag": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.0
       },
       "BetRivers": {
         "home_spread": 14.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 61.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 62.5
       },
       "BetUS": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 62.0
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 62.5
       },
       "Bovada": {
-        "home_spread": 14.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 62.0
+        "home_spread": 15.0,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 62.5
       },
       "DraftKings": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 62.5
       },
       "FanDuel": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.5
       },
       "LowVig.ag": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 62.0
       },
       "MyBookie.ag": {
         "home_spread": 14.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 62.5
       }
     },
@@ -3352,63 +3327,63 @@
     "source": "The Odds API"
   },
   "401858289": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -6.5,
+    "market_home_margin": -6.0,
     "market_total": 52.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 52.5
       },
       "BetOnline.ag": {
         "home_spread": 6.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "BetRivers": {
-        "home_spread": 6.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": 5.0,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 52.5
       },
       "BetUS": {
-        "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 6.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 52.5
       },
       "Bovada": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 52.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 53.0
       },
       "DraftKings": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 52.5
       },
       "FanDuel": {
-        "home_spread": 6.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "home_spread": 5.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "LowVig.ag": {
         "home_spread": 6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "MyBookie.ag": {
         "home_spread": 6.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 52.0
       }
     },
     "source": "The Odds API"
   },
   "401858290": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 47.5,
@@ -3417,24 +3392,24 @@
     "providers": {
       "BetRivers": {
         "home_spread": -48.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 58.5
       },
       "DraftKings": {
         "home_spread": -47.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 58.5
       },
       "FanDuel": {
         "home_spread": -46.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 58.5
       }
     },
     "source": "The Odds API"
   },
   "401858291": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 7.0,
@@ -3443,110 +3418,110 @@
     "providers": {
       "BetMGM": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 54.5
       },
       "BetOnline.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "BetRivers": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 54.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 55.0
       },
       "BetUS": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.0
       },
       "Bovada": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 54.5
       },
       "DraftKings": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "FanDuel": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 55.5
       },
       "LowVig.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "MyBookie.ag": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 55.0
       }
     },
     "source": "The Odds API"
   },
   "401858292": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -8.0,
+    "market_home_margin": -7.5,
     "market_total": 54.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 8.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 54.5
       },
       "BetOnline.ag": {
-        "home_spread": 8.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 7.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "BetRivers": {
         "home_spread": 7.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 54.5
       },
       "BetUS": {
-        "home_spread": 8.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 54.5
+        "home_spread": 7.5,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 55.0
       },
       "Bovada": {
         "home_spread": 7.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 54.5
       },
       "DraftKings": {
         "home_spread": 7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "FanDuel": {
         "home_spread": 7.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "LowVig.ag": {
-        "home_spread": 8.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 7.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "MyBookie.ag": {
-        "home_spread": 8.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 8.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 55.0
       }
     },
     "source": "The Odds API"
   },
   "401858298": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -2.5,
@@ -3555,7 +3530,7 @@
     "providers": {
       "DraftKings": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 59.5
       }
     },
@@ -4409,175 +4384,175 @@
     "source": "The Odds API"
   },
   "401858511": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 14.0,
-    "market_total": 39.5,
+    "market_total": 40.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -14.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 39.5
       },
       "BetOnline.ag": {
         "home_spread": -14.0,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 39.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 40.0
       },
       "BetRivers": {
         "home_spread": -14.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 39.5
       },
       "BetUS": {
         "home_spread": -14.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 39.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 40.0
       },
       "Bovada": {
-        "home_spread": -14.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": -14.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 40.0
       },
       "DraftKings": {
-        "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -14.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 39.5
       },
       "FanDuel": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 39.5
       },
       "LowVig.ag": {
         "home_spread": -14.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 39.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 40.0
       },
       "MyBookie.ag": {
-        "home_spread": -14.5,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 39.5
+        "home_spread": -14.0,
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 40.0
       }
     },
     "source": "The Odds API"
   },
   "401858512": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -5.0,
+    "market_home_margin": -4.0,
     "market_total": 38.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 38.5
       },
       "BetOnline.ag": {
-        "home_spread": 5.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 39.0
       },
       "BetRivers": {
-        "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": 3.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 38.5
       },
       "BetUS": {
-        "home_spread": 5.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 39.0
       },
       "Bovada": {
-        "home_spread": 5.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 4.5,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 38.5
       },
       "DraftKings": {
-        "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 38.5
       },
       "FanDuel": {
-        "home_spread": 4.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "home_spread": 3.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 38.5
       },
       "LowVig.ag": {
-        "home_spread": 5.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 39.0
       },
       "MyBookie.ag": {
-        "home_spread": 5.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 39.0
+        "home_spread": 4.0,
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 38.5
       }
     },
     "source": "The Odds API"
   },
   "401858513": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -2.0,
+    "market_home_margin": -2.5,
     "market_total": 43.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 43.5
       },
       "BetOnline.ag": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 44.0
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 43.0
       },
       "BetRivers": {
         "home_spread": 2.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 43.5
       },
       "BetUS": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.0
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 43.0
       },
       "Bovada": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 43.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 43.0
       },
       "DraftKings": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 43.5
       },
       "FanDuel": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 43.5
       },
       "LowVig.ag": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.0
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 43.0
       },
       "MyBookie.ag": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 43.5
       }
     },
     "source": "The Odds API"
   },
   "401858514": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 7.5,
@@ -4585,111 +4560,111 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 45.5
+        "home_spread": -8.0,
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 44.5
       },
       "BetOnline.ag": {
         "home_spread": -8.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.0
       },
       "BetRivers": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 45.5
       },
       "BetUS": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 45.0
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 44.5
       },
       "Bovada": {
         "home_spread": -8.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 45.0
       },
       "DraftKings": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 45.5
       },
       "FanDuel": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.5
       },
       "LowVig.ag": {
         "home_spread": -8.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.0
       },
       "MyBookie.ag": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 45.0
       }
     },
     "source": "The Odds API"
   },
   "401858515": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 5.5,
-    "market_total": 56.5,
+    "market_total": 57.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 56.5
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 57.5
       },
       "BetOnline.ag": {
-        "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -5.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 56.5
       },
       "BetRivers": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -5.0,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 56.5
       },
       "BetUS": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 57.0
       },
       "Bovada": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 56.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 57.5
       },
       "DraftKings": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 56.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 57.5
       },
       "FanDuel": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 57.5
       },
       "LowVig.ag": {
-        "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -5.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 56.5
       },
       "MyBookie.ag": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 57.0
       }
     },
     "source": "The Odds API"
   },
   "401858516": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 2.5,
@@ -4698,95 +4673,110 @@
     "providers": {
       "BetMGM": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 44.5
       },
       "BetOnline.ag": {
-        "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -2.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.5
       },
       "BetRivers": {
-        "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 43.5
+        "home_spread": -2.0,
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 44.5
       },
       "BetUS": {
-        "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -2.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 44.0
       },
       "Bovada": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 44.0
       },
       "DraftKings": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 43.5
       },
       "FanDuel": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.5
       },
       "LowVig.ag": {
-        "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -2.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.5
       },
       "MyBookie.ag": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 44.5
       }
     },
     "source": "The Odds API"
   },
   "401858517": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T21:15:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 18.25,
-    "market_total": 45.5,
-    "provider_count": 6,
+    "market_home_margin": 18.5,
+    "market_total": 45.0,
+    "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -18.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -18.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 45.5
       },
+      "BetOnline.ag": {
+        "home_spread": -18.0,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 45.0
+      },
       "BetRivers": {
-        "home_spread": -19.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 46.5
+        "home_spread": -18.5,
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 44.5
+      },
+      "BetUS": {
+        "home_spread": -18.5,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 45.0
       },
       "Bovada": {
         "home_spread": -18.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 45.5
       },
       "DraftKings": {
         "home_spread": -18.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 45.5
       },
       "FanDuel": {
         "home_spread": -17.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.5
       },
-      "MyBookie.ag": {
+      "LowVig.ag": {
         "home_spread": -18.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 45.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 45.0
+      },
+      "MyBookie.ag": {
+        "home_spread": -19.5,
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 45.0
       }
     },
     "source": "The Odds API"
   },
   "401858518": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 7.25,
@@ -4795,12 +4785,12 @@
     "providers": {
       "DraftKings": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 50.5
       },
       "FanDuel": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       }
     },
@@ -4828,7 +4818,7 @@
     "source": "The Odds API"
   },
   "401858523": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 5.5,
@@ -4837,7 +4827,7 @@
     "providers": {
       "DraftKings": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 44.5
       }
     },
@@ -5237,7 +5227,7 @@
     "source": "The Odds API"
   },
   "401860911": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T23:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -17.0,
@@ -5245,167 +5235,167 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 16.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 68.5
       },
       "BetOnline.ag": {
         "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 68.5
       },
       "BetRivers": {
         "home_spread": 17.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 68.5
       },
       "BetUS": {
         "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 68.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 69.0
       },
       "Bovada": {
         "home_spread": 17.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 68.5
       },
       "DraftKings": {
         "home_spread": 17.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 68.5
       },
       "FanDuel": {
         "home_spread": 16.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 68.5
       },
       "LowVig.ag": {
         "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 68.5
       },
       "MyBookie.ag": {
         "home_spread": 17.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 69.0
       }
     },
     "source": "The Odds API"
   },
   "401860912": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T03:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 6.5,
+    "market_home_margin": 6.0,
     "market_total": 71.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 70.5
       },
       "BetOnline.ag": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 71.0
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 71.5
       },
       "BetRivers": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 70.5
       },
       "BetUS": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 71.0
       },
       "Bovada": {
-        "home_spread": -6.0,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 71.0
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 71.5
       },
       "DraftKings": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 70.5
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 71.5
       },
       "FanDuel": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 70.5
       },
       "LowVig.ag": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 71.0
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 71.5
       },
       "MyBookie.ag": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -6.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 71.0
       }
     },
     "source": "The Odds API"
   },
   "401860913": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T02:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -2.0,
+    "market_home_margin": -1.0,
     "market_total": 43.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 43.5
       },
       "BetOnline.ag": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 43.0
       },
       "BetRivers": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 42.5
+        "home_spread": 1.5,
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 43.5
       },
       "BetUS": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 43.0
       },
       "Bovada": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 43.0
       },
       "DraftKings": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 42.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 43.5
       },
       "FanDuel": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 42.5
+        "home_spread": 1.5,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 43.5
       },
       "LowVig.ag": {
-        "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 43.0
       },
       "MyBookie.ag": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 1.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 43.0
       }
     },
     "source": "The Odds API"
   },
   "401860914": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-14T23:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 5.0,
@@ -5414,12 +5404,12 @@
     "providers": {
       "DraftKings": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 62.5
       },
       "FanDuel": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 63.5
       }
     },
@@ -6150,7 +6140,7 @@
     "source": "The Odds API"
   },
   "401862819": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 8.5,
@@ -6159,110 +6149,110 @@
     "providers": {
       "BetMGM": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 47.5
       },
       "BetOnline.ag": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "BetRivers": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 47.5
       },
       "BetUS": {
-        "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 47.5
       },
       "Bovada": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 47.5
       },
       "DraftKings": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 47.5
       },
       "FanDuel": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "LowVig.ag": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "MyBookie.ag": {
         "home_spread": -8.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 47.5
       }
     },
     "source": "The Odds API"
   },
   "401862820": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 7.5,
+    "market_home_margin": 7.0,
     "market_total": 54.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 54.5
       },
       "BetOnline.ag": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "BetRivers": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 54.5
       },
       "BetUS": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "Bovada": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 54.5
       },
       "DraftKings": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "FanDuel": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "LowVig.ag": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "MyBookie.ag": {
         "home_spread": -7.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 54.5
       }
     },
     "source": "The Odds API"
   },
   "401862821": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T21:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 16.0,
@@ -6270,55 +6260,55 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -15.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 64.5
       },
       "BetOnline.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 64.5
       },
       "BetRivers": {
-        "home_spread": -17.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": -16.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 64.5
       },
       "BetUS": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 65.0
       },
       "Bovada": {
         "home_spread": -15.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 64.5
       },
       "DraftKings": {
         "home_spread": -16.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 64.5
       },
       "FanDuel": {
         "home_spread": -16.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 64.5
       },
       "LowVig.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 64.5
       },
       "MyBookie.ag": {
         "home_spread": -16.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 65.0
       }
     },
     "source": "The Odds API"
   },
   "401862822": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T17:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -2.5,
@@ -6326,105 +6316,105 @@
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 3.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 50.5
       },
       "BetOnline.ag": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 50.0
       },
       "BetRivers": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 49.5
       },
       "BetUS": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 50.0
       },
       "Bovada": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 3.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 50.0
       },
       "DraftKings": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 3.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 50.5
       },
       "FanDuel": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "LowVig.ag": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 50.0
       },
       "MyBookie.ag": {
-        "home_spread": 2.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 3.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 50.0
       }
     },
     "source": "The Odds API"
   },
   "401862823": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 4.0,
-    "market_total": 44.5,
+    "market_total": 44.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 43.5
       },
       "BetOnline.ag": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.0
       },
       "BetRivers": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 43.5
       },
       "BetUS": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 44.0
       },
       "Bovada": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 44.0
       },
       "DraftKings": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 43.5
       },
       "FanDuel": {
         "home_spread": -3.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 43.5
       },
       "LowVig.ag": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 44.0
       },
       "MyBookie.ag": {
         "home_spread": -4.0,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 44.0
       }
     },
     "source": "The Odds API"
@@ -6690,56 +6680,56 @@
     "source": "The Odds API"
   },
   "401864535": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T03:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 4.5,
+    "market_home_margin": 4.0,
     "market_total": 49.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 48.5
       },
       "BetOnline.ag": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "BetRivers": {
         "home_spread": -5.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 47.5
       },
       "BetUS": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 49.5
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 49.0
       },
       "Bovada": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 48.5
       },
       "DraftKings": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 48.5
       },
       "FanDuel": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "LowVig.ag": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "MyBookie.ag": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -4.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 49.0
       }
     },
@@ -7312,7 +7302,7 @@
     "source": "The Odds API"
   },
   "401866458": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-11T00:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -13.5,
@@ -7321,14 +7311,14 @@
     "providers": {
       "FanDuel": {
         "home_spread": 13.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 46.5
       }
     },
     "source": "The Odds API"
   },
   "401866459": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-11T00:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 5.5,
@@ -7337,14 +7327,14 @@
     "providers": {
       "FanDuel": {
         "home_spread": -5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 45.5
       }
     },
     "source": "The Odds API"
   },
   "401866460": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-11T01:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 2.5,
@@ -7353,14 +7343,30 @@
     "providers": {
       "FanDuel": {
         "home_spread": -2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 48.5
       }
     },
     "source": "The Odds API"
   },
+  "401866461": {
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
+    "commence_time": "2026-11-12T00:30:00Z",
+    "line_timing": "OBSERVED",
+    "market_home_margin": -2.5,
+    "market_total": 50.5,
+    "provider_count": 1,
+    "providers": {
+      "FanDuel": {
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 50.5
+      }
+    },
+    "source": "The Odds API"
+  },
   "401866462": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-12T00:30:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 14.5,
@@ -7369,7 +7375,7 @@
     "providers": {
       "FanDuel": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 43.5
       }
     },
@@ -7488,7 +7494,7 @@
     "source": "The Odds API"
   },
   "401869936": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 14.5,
@@ -7497,48 +7503,48 @@
     "providers": {
       "BetMGM": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 53.5
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 52.5
       },
       "BetOnline.ag": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.0
       },
       "BetRivers": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 52.5
       },
       "BetUS": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 53.0
       },
       "Bovada": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 53.0
       },
       "DraftKings": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 53.5
       },
       "FanDuel": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 52.5
       },
       "LowVig.ag": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.0
       },
       "MyBookie.ag": {
         "home_spread": -14.5,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 53.5
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 53.0
       }
     },
     "source": "The Odds API"
@@ -7600,112 +7606,112 @@
     "source": "The Odds API"
   },
   "401869945": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T18:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 6.5,
-    "market_total": 44.0,
+    "market_total": 45.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 44.5
       },
       "BetOnline.ag": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:07Z",
-        "total": 44.0
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 45.0
       },
       "BetRivers": {
         "home_spread": -6.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 43.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 44.5
       },
       "BetUS": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 45.0
       },
       "Bovada": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 43.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 45.0
       },
       "DraftKings": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 45.5
       },
       "FanDuel": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 43.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 44.5
       },
       "LowVig.ag": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 44.0
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 45.0
       },
       "MyBookie.ag": {
         "home_spread": -6.5,
-        "last_update": "2026-11-06T19:32:20Z",
-        "total": 44.5
+        "last_update": "2026-11-07T06:13:14Z",
+        "total": 45.0
       }
     },
     "source": "The Odds API"
   },
   "401869951": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 10.5,
+    "market_home_margin": 9.0,
     "market_total": 54.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "home_spread": -8.5,
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 54.5
       },
       "BetOnline.ag": {
-        "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "BetRivers": {
-        "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 53.5
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 54.5
       },
       "BetUS": {
-        "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "Bovada": {
-        "home_spread": -10.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 55.0
+        "home_spread": -8.5,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 54.5
       },
       "DraftKings": {
-        "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -8.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 54.5
       },
       "FanDuel": {
-        "home_spread": -10.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "home_spread": -9.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "LowVig.ag": {
-        "home_spread": -10.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 54.5
       },
       "MyBookie.ag": {
-        "home_spread": -10.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -9.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 54.5
       }
     },
@@ -7758,112 +7764,112 @@
     "source": "The Odds API"
   },
   "401869968": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T22:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": 7.5,
-    "market_total": 57.5,
+    "market_home_margin": 7.0,
+    "market_total": 57.0,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 57.5
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 56.5
       },
       "BetOnline.ag": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 57.0
       },
       "BetRivers": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 57.5
       },
       "BetUS": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 57.0
       },
       "Bovada": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 57.5
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 57.0
       },
       "DraftKings": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 57.5
       },
       "FanDuel": {
         "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:56Z",
-        "total": 57.5
+        "last_update": "2026-11-07T06:14:24Z",
+        "total": 56.5
       },
       "LowVig.ag": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 57.0
       },
       "MyBookie.ag": {
-        "home_spread": -7.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": -7.0,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 57.0
       }
     },
     "source": "The Odds API"
   },
   "401870795": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-08T01:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -16.5,
+    "market_home_margin": -15.5,
     "market_total": 46.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
-        "home_spread": 16.0,
-        "last_update": "2026-11-06T19:33:33Z",
-        "total": 45.5
+        "home_spread": 15.5,
+        "last_update": "2026-11-07T06:13:38Z",
+        "total": 46.5
       },
       "BetOnline.ag": {
-        "home_spread": 16.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 15.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 46.5
       },
       "BetRivers": {
-        "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": 16.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 46.5
       },
       "BetUS": {
-        "home_spread": 17.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 15.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 46.5
       },
       "Bovada": {
-        "home_spread": 16.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 16.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 46.0
       },
       "DraftKings": {
-        "home_spread": 16.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 15.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 46.5
       },
       "FanDuel": {
-        "home_spread": 16.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "home_spread": 15.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 46.5
       },
       "LowVig.ag": {
-        "home_spread": 16.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 15.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 46.5
       },
       "MyBookie.ag": {
-        "home_spread": 17.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 16.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 46.0
       }
     },
@@ -8150,7 +8156,7 @@
     "source": "The Odds API"
   },
   "401871073": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": -1.5,
@@ -8159,54 +8165,54 @@
     "providers": {
       "BetMGM": {
         "home_spread": 1.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 57.5
       },
       "BetOnline.ag": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 57.0
       },
       "BetRivers": {
         "home_spread": 2.0,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 55.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 57.5
       },
       "BetUS": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 57.0
       },
       "Bovada": {
         "home_spread": 1.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 56.5
       },
       "DraftKings": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 57.5
       },
       "FanDuel": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 56.5
       },
       "LowVig.ag": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 57.0
       },
       "MyBookie.ag": {
         "home_spread": 1.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 57.0
       }
     },
     "source": "The Odds API"
   },
   "401871074": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T21:00:00Z",
     "line_timing": "OBSERVED",
     "market_home_margin": 4.5,
@@ -8215,103 +8221,103 @@
     "providers": {
       "BetMGM": {
         "home_spread": -5.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 49.5
       },
       "BetOnline.ag": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "BetRivers": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:34Z",
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 50.5
       },
       "BetUS": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
-        "total": 49.5
+        "last_update": "2026-11-07T06:13:58Z",
+        "total": 50.0
       },
       "Bovada": {
-        "home_spread": -5.0,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 50.0
       },
       "DraftKings": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 49.5
       },
       "FanDuel": {
-        "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "home_spread": -5.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "LowVig.ag": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 49.5
       },
       "MyBookie.ag": {
         "home_spread": -4.5,
-        "last_update": "2026-11-06T19:32:20Z",
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 50.0
       }
     },
     "source": "The Odds API"
   },
   "401871076": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T20:30:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -2.0,
+    "market_home_margin": -2.5,
     "market_total": 53.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 53.5
       },
       "BetOnline.ag": {
-        "home_spread": 1.0,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "BetRivers": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:33:34Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:25Z",
         "total": 52.5
       },
       "BetUS": {
-        "home_spread": 1.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 53.0
       },
       "Bovada": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:31:59Z",
-        "total": 53.5
+        "last_update": "2026-11-07T06:12:31Z",
+        "total": 53.0
       },
       "DraftKings": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 53.5
       },
       "FanDuel": {
         "home_spread": 2.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "LowVig.ag": {
-        "home_spread": 1.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 53.5
       },
       "MyBookie.ag": {
-        "home_spread": 2.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 2.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 53.5
       }
     },
@@ -8527,56 +8533,56 @@
     "source": "The Odds API"
   },
   "401871098": {
-    "collected_at": "2026-11-06T19:34:20.190119+00:00",
+    "collected_at": "2026-11-07T06:14:38.709557+00:00",
     "commence_time": "2026-11-07T21:00:00Z",
     "line_timing": "OBSERVED",
-    "market_home_margin": -5.5,
+    "market_home_margin": -6.0,
     "market_total": 47.5,
     "provider_count": 9,
     "providers": {
       "BetMGM": {
         "home_spread": 6.0,
-        "last_update": "2026-11-06T19:33:33Z",
+        "last_update": "2026-11-07T06:13:38Z",
         "total": 47.5
       },
       "BetOnline.ag": {
-        "home_spread": 5.5,
-        "last_update": "2026-11-06T19:33:07Z",
+        "home_spread": 6.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "BetRivers": {
         "home_spread": 5.5,
-        "last_update": "2026-11-06T19:33:34Z",
-        "total": 46.5
+        "last_update": "2026-11-07T06:14:25Z",
+        "total": 47.5
       },
       "BetUS": {
         "home_spread": 6.0,
-        "last_update": "2026-11-06T19:33:32Z",
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 47.5
       },
       "Bovada": {
-        "home_spread": 5.5,
-        "last_update": "2026-11-06T19:31:59Z",
+        "home_spread": 6.0,
+        "last_update": "2026-11-07T06:12:31Z",
         "total": 48.0
       },
       "DraftKings": {
-        "home_spread": 5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 6.0,
+        "last_update": "2026-11-07T06:13:58Z",
         "total": 47.5
       },
       "FanDuel": {
         "home_spread": 5.5,
-        "last_update": "2026-11-06T19:33:56Z",
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "LowVig.ag": {
-        "home_spread": 5.5,
-        "last_update": "2026-11-06T19:33:32Z",
+        "home_spread": 6.0,
+        "last_update": "2026-11-07T06:14:24Z",
         "total": 47.5
       },
       "MyBookie.ag": {
-        "home_spread": 6.0,
-        "last_update": "2026-11-06T19:32:20Z",
+        "home_spread": 6.5,
+        "last_update": "2026-11-07T06:13:14Z",
         "total": 47.5
       }
     },
