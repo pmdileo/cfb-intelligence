@@ -1,8 +1,8 @@
 {
-  "refreshed_utc": "2026-11-10T20:27:19.096846+00:00",
+  "refreshed_utc": "2026-11-13T20:29:57.436078+00:00",
   "weeks_succeeded": 96,
   "week_errors": [],
-  "game_count": 5240,
+  "game_count": 5260,
   "source": "ESPN unofficial public scoreboard",
   "source_endpoint": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard"
 }
